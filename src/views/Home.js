@@ -133,9 +133,7 @@ export const Premium = () => {
 
                     </div>
                     <div className="mt-5">
-                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
-
-                        Your customers will be able to place bets online 24/7
+                        <p id="textSub">Players can access our VIP game rooms with first-rate dealers that will make sure to meet all expectations.
                         </p>
                     </div>
 
@@ -151,9 +149,7 @@ export const Premium = () => {
 
                     </div>
                     <div className="mt-5">
-                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
-
-                        Your customers will be able to place bets online 24/7
+                        <p id="textSub">Whether it’s on a phone, computer, or tablet, we have a wide range of casino games to choose from.
                         </p>
                     </div>
                 </Col>
@@ -173,9 +169,7 @@ export const Premium = () => {
 
                     </div>
                     <div className="mt-5">
-                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
-
-                        Your customers will be able to place bets online 24/7
+                        <p id="textSub">Live betting available in all major leagues and sports.
                         </p>
                     </div>
                 </Col>
@@ -190,9 +184,7 @@ export const Premium = () => {
 
                     </div>
                     <div className="mt-5">
-                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
-
-                        Your customers will be able to place bets online 24/7
+                        <p id="textSub">Our racebook offers full features and the availability to bet on the best tracks all year round.
                         </p>
                     </div>
                 </Col>
@@ -207,9 +199,9 @@ export const Premium = () => {
 
                     </div>
                     <div className="mt-5">
-                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+                        <p id="textSub">VIP pay per head customer service is available 24/7/365
+                        Phone, chat, and email
 
-                        Your customers will be able to place bets online 24/7
                         </p>
                     </div>
                 </Col>
