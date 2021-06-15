@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export const Header = () => {
     return (
@@ -56,10 +57,9 @@ export const Logoo = props => {
     return (
         <Container fluid>
             <Row>
-                
-                  <span id="title">Benefits</span>  
-                
-                
+
+                <span id="title">{props.TitleName}</span>
+
                 <img src={props.ImageLogo} alt="" id="logo" />
             </Row>
 
@@ -68,11 +68,44 @@ export const Logoo = props => {
     )
 
 }
+export const NavBar = props => {
+
+    const [collapsed, setCollapsed] = useState(true);
+
+    const toggleNavbar = () => setCollapsed(!collapsed);
+
+    return (
+        <div>
+            <Navbar color="dark" dark>
+                <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
+                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+                <Collapse isOpen={!collapsed} navbar id="cola">
+                    <Nav navbar>
+                        <NavItem>
+                            <NavLink href="#" id="nav">About Us</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#" id="nav">GitHub</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
+    );
+}
+
+
+
 
 Logoo.propTypes = {
     ImageLogo: PropTypes.any,
     TitleName: PropTypes.any
 };
+NavbarToggler.propTypes = {
+    type: PropTypes.string,
+    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
+    
+  }
 
 
 

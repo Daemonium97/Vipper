@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import './index.css'
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Header, Logoo } from './components/Header'
+import { Header, Logoo, NavBar } from './components/Header'
 
 
 
@@ -13,7 +13,8 @@ ReactDOM.render(
     <Switch>
       <Route>
         <Header/>
-        <Logoo ImageLogo="https://s1.1zoom.me/b5050/702/Cards_Closeup_poker_459976_1920x1080.jpg"/>
+        <NavBar/>
+        <Logoo ImageLogo="https://s1.1zoom.me/b5050/702/Cards_Closeup_poker_459976_1920x1080.jpg" TitleName="Benefits"/>
       </Route>
 
     </Switch>
