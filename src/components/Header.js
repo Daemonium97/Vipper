@@ -1,8 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-function Header() {
+export const Header = () => {
     return (
         <Container fluid className="all">
             <Row>
@@ -19,7 +20,7 @@ function Header() {
                 </Col>
                 <Col lg={true}>
                     <div className="d-flex justify-content-center">
-                        <img src="https://storage.googleapis.com/mmc-elcaribe-bucket/uploads/2020/06/67d60a00-casino-fondos-ue_20415256_20200417193134-5efa1cca01587.jpg" alt="" id="image" />
+                        <img src="https://thumbs.dreamstime.com/z/logotipo-del-club-casino-vector-y-ejemplo-133049302.jpg" alt="" id="image" />
                     </div>
 
                 </Col>
@@ -37,23 +38,41 @@ function Header() {
                         <div className="main2">
                             <div className="lan">
                                 <a href="#">EN</a>
-                                <span style={{color: 'white'}}> | </span>
+                                <span style={{ color: 'white' }}> | </span>
                                 <a href="#">ES</a>
                             </div>
 
                         </div>
                     </div>
 
-
-
                 </Col>
-
             </Row>
-
-
         </Container>
 
     )
 }
 
-export default Header
+export const Logoo = props => {
+    return (
+        <Container fluid>
+            <Row>
+                <span id="title">Benefits</span>
+                <img src={props.ImageLogo} alt="" id="logo" />
+            </Row>
+
+
+        </Container>
+    )
+
+}
+
+Logoo.propTypes = {
+    ImageLogo: PropTypes.any,
+    TitleName: PropTypes.any
+};
+
+
+
+
+
+
