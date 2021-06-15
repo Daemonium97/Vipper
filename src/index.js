@@ -5,16 +5,22 @@ import './index.css'
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header, Logoo, NavBar } from './components/Header'
+import Home from './views/Home'
 
 
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route>
+      <Route exact path="/">
         <Header/>
         <NavBar/>
-        <Logoo ImageLogo="https://s1.1zoom.me/b5050/702/Cards_Closeup_poker_459976_1920x1080.jpg" TitleName="Benefits"/>
+       <Home/>
+      </Route>
+      <Route exact path="/About">
+      <Header/>
+      <NavBar/>
+      <Logoo ImageLogo="https://f.vividscreen.info/soft/b369907c79cb1bb9aef2f088fb6e0dcd/Hello-Kitty-1920x1080.jpg" TitleName="About Us" />
       </Route>
 
     </Switch>

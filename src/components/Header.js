@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
@@ -82,7 +83,10 @@ export const NavBar = props => {
                 <Collapse isOpen={!collapsed} navbar id="cola">
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="#" id="nav">About Us</NavLink>
+                            <Link to="/About">
+                            <NavLink id="nav">About Us</NavLink>
+                            </Link>
+                            
                         </NavItem>
                         <NavItem>
                             <NavLink href="#" id="nav">GitHub</NavLink>
