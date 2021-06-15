@@ -207,9 +207,14 @@ export const Premium = () => {
                 </Col>
 
             </Row>
+            <div id="services2">
+                <span>AND MUCH MORE</span>
+            </div>
 
         </Container>
     )
 }
+
+
 
 

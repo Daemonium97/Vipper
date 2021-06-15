@@ -95,6 +95,16 @@
     margin-bottom: 80px;
     text-align: center;
 }
+#services2{
+    color: rgb(90, 74, 32);
+    margin-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size:20px!important;
+    text-shadow: #474508 2px 0px 0px;
+}
 #ImageSports{
     width: 500px;
     height: 500px;
