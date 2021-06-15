@@ -58,3 +58,46 @@
     margin: 0;
     padding: 0px 64px 0px 64px;
 }
+#titleHome3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 60px;
+
+}
+#titleHome4{
+    color: rgb(184, 171, 102);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 60px;
+
+}
+.all3{
+    background: #290f21;
+}
+#mai2{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 64px 0px 64px;
+}
+#ImageSports{
+    width: 500px;
+    height: 500px;
+    
+}
+
+#textSports{
+    color: white;
+    text-align: center;
+    
+    
+}
