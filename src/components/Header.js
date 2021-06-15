@@ -10,11 +10,11 @@ export const Header = () => {
                 <Col lg={true} className="numbers">
 
                     <div >
-                        <div>1-888-992-3891</div>
+                        <div id="call">1-888-992-3891</div>
                         <div>Call Us for Free Us</div>
                     </div>
                     <div>
-                        <div>01-800-099-0754</div>
+                        <div id="call">01-800-099-0754</div>
                         <div>Call Us for Free Us</div>
                     </div>
                 </Col>
