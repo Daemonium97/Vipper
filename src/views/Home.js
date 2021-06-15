@@ -98,27 +98,122 @@ export const Premium = () => {
                 </div>
 
             </Row>
-            <Row>
-                <div>
-                    <div>
-                        <h2>THE BEST BETTING SERVICES</h2>
+            <div id="services" >
+                <h2 >THE BEST BETTING SERVICES</h2>
+            </div>
+            <Row >
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={sports} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textSports">SPORTSBOOK SOFTWARE</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
                     </div>
 
-                    <Col lg={true}>
-                        <div>
-                            <Card className="bg-dark text-white">
-                                <Card.Img src={sports} alt="" id="ImageSports" />
-                                <Card.ImgOverlay>
-                                    <Card.Title id="textSports">SPORTSBOOK SOFTWARE</Card.Title>
-                                </Card.ImgOverlay>
-                            </Card>
-                        </div>
 
-                    </Col>
-                    <Col lg={true}></Col>
-                    <Col lg={true}></Col>
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={casino} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textLive">LIVE CASINO</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
 
-                </div>
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
+                    </div>
+
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={online} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textSports">ONLINE CASINO</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
+                    </div>
+                </Col>
+
+            </Row>
+
+            <Row className="square2">
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={betting} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textSports">LIVE BETTING</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={horses} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textHorse">HORSES</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={call} alt="" id="ImageSports" />
+                            <Card.ImgOverlay>
+                                <Card.Title id="textSports">BILINGUAL CALL CENTER</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+
+                    </div>
+                    <div className="mt-5">
+                        <p id="textSub">Five-star experience, solid platform, secure, and easy to use.
+
+                        Your customers will be able to place bets online 24/7
+                        </p>
+                    </div>
+                </Col>
+
             </Row>
 
         </Container>
