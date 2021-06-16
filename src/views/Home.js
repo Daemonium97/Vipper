@@ -381,12 +381,13 @@ export const Register = () => {
                         <h2 className="TitleRegis3">START RUNNING YOUR WINNING BRAND.</h2>
                         </div>
                     <div>
-                        <div>
-                            <span>1</span>
-                            <span>F I L L T H E F O R M</span>
+                        <div className="num">
+                            <span id="uno">1</span>
+                            <span id="dos">2</span>
                         </div>
-                        <div>
-                            <span>2</span>
+                        <span id="unotext">F I L L T H E F O R M</span>
+                        <div >
+                            
                             <span>C O N T A C T</span>
                             <p>
                                 One of our representatives will contact

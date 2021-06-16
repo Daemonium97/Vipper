@@ -286,3 +286,24 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
     font-size: 20px;
 
 }
+#uno{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200px;
+    color: rgb(107, 96, 36);
+    
+}
+#unotext{
+    color: rgb(107, 96, 36);
+    font-size: 20px;
+}
+#dos{
+    font-family: 'Montserrat', sans-serif;
+    font-size:200px;
+    color: rgb(107, 96, 36);
+}
+.num{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 300px;
+}
