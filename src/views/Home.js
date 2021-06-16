@@ -1,6 +1,7 @@
 import React from 'react'
 import '../views/Home.css'
-import { Carousel, Container, Row, Col, Card, Button } from 'react-bootstrap'
+import { Carousel, Container, Row, Col, Card } from 'react-bootstrap'
+import {Button} from 'reactstrap'
 
 import image1 from '../images_home/1.jpg'
 import image2 from '../images_home/2.jpg'
@@ -432,6 +433,24 @@ export const BlogHome = () => {
                         </Card>
 
                     </div>
+                    <div className="mt-2" id="Jhon">
+                        <p>Posted by John
+
+                        </p>
+                        <p>09 February in  <strong>News</strong></p>
+                    </div>
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/>
+                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                    </div>
+
                 </Col>
                 <Col lg={true}>
                     <div className="fut1">
@@ -441,6 +460,24 @@ export const BlogHome = () => {
                         </Card>
 
                     </div>
+                    <div className="mt-2" id="Jhon">
+                        <p>Posted by John
+
+                        </p>
+                        <p>09 February in  <strong>Category</strong></p>
+                    </div>
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/>
+                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                    </div>
+
                 </Col>
                 <Col lg={true}>
                     <div className="fut1">
@@ -450,68 +487,28 @@ export const BlogHome = () => {
                         </Card>
 
                     </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col lg={true}>
-                    <div className="mt-2" id="Jhon">
-                        <p>Posted by John
 
-                        </p>
-                        <p>09 February in  <strong>News</strong></p>
-                    </div>
-                </Col>
-                <Col lg={true}>
                     <div className="mt-2" id="Jhon">
                         <p>Posted by John
 
                         </p>
                         <p>09 February in  <strong>Category</strong></p>
                     </div>
-                </Col>
-                <Col lg={true}>
-                    <div className="mt-2" id="Jhon">
-                        <p>Posted by John
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/><span className="text-white">Share</span>
+                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                    </div>
 
-                        </p>
-                        <p>09 February in  <strong>Category</strong></p>
-                    </div>
                 </Col>
             </Row>
-            <Row>
-                <Col lg={true}>
-                    <div className="mt-3" id="Jhon">
-                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
-                        SEASON BETTING PREDICTIONS
-                        </p>
-                        <p>With the 2019/2020 College Basketball
-                            season in its early st…</p>
-                    </div>
-                </Col>
-                <Col lg={true}>
-                    <div className="mt-3" id="Jhon">
-                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
-                        SEASON BETTING PREDICTIONS
-                        </p>
-                        <p>With the 2019/2020 College Basketball
-                            season in its early st…</p>
-                    </div>
-                </Col>
-                <Col lg={true}>
-                    <div className="mt-3" id="Jhon">
-                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
-                        SEASON BETTING PREDICTIONS
-                        </p>
-                        <p>With the 2019/2020 College Basketball
-                            season in its early st…</p>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col lg={true}></Col>
-                <Col lg={true}></Col>
-                <Col lg={true}></Col>
-            </Row>
+            
 
         </Container>
     )
