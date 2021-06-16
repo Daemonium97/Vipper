@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import mic from '../icons/mic.png'
 
 export const Header = () => {
     return (
@@ -32,7 +33,7 @@ export const Header = () => {
                             <div className="social">
                                 <a href="#"><img src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
                                 <a href="#" id="in">in</a>
-                                <img src="https://toppng.com/uploads/preview/interview-matchup-guest-icon-microphone-white-record-icon-white-11562988544xnmogc3pmb.png" id="mic" />
+                                <img src={mic} id="mic" />
                             </div>
 
 

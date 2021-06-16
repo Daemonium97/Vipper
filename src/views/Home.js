@@ -518,7 +518,7 @@ export const Payments = () => {
     return(
         <Container fluid>
             <Row>
-
+                
             </Row>
 
         </Container>
