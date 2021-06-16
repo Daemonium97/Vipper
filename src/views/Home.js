@@ -360,42 +360,48 @@ export const Register = () => {
             <Row>
                 <Col lg={true}>
                     <div className="regis">
-                      <div >
-                        <h1 className="TitleRegis">REGISTRATION NOW</h1>
+                        <div >
+                            <h1 className="TitleRegis">REGISTRATION NOW</h1>
+                        </div>
+                        <div className="textRegis">
+                            <p>JOIN THE SELECT GROUP OF BOOKIES</p>
+                            <p>THAT USE VIP PER HEAD TODAY.</p>
+                            <p>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p>
+                        </div>
                     </div>
-                    <div className="textRegis">
-                        <p>JOIN THE SELECT GROUP OF BOOKIES</p>
-                        <p>THAT USE VIP PER HEAD TODAY.</p>
-                        <p>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p>
-                    </div>  
-                    </div>
-                    
+
 
                 </Col>
                 <Col lg={true}>
-                  
-                    <div className="">
-                        <h1 className="TitleRegis2">YOU ARE READY!</h1>
-                    </div>
-                    <div>
-                        <h2 className="TitleRegis3">START RUNNING YOUR WINNING BRAND.</h2>
-                        </div>
-                    <div>
-                        <div className="num">
-                            <span id="uno">1</span>
-                            <span id="dos">2</span>
-                        </div>
-                        <span id="unotext">F I L L T H E F O R M</span>
+                    <div className="regis2">
                         <div >
-                            
-                            <span>C O N T A C T</span>
-                            <p>
+                            <h1 className="TitleRegis2">YOU ARE READY!</h1>
+                        </div>
+                        <div>
+                            <h2 className="TitleRegis3">START RUNNING YOUR WINNING BRAND.</h2>
+                        </div>
+                        <div>
+                            <div className="num">
+                                <span id="uno">1</span>
+
+                                <span id="dos">2</span>
+                            </div>
+                            <div>
+                                <span id="unotext">F I L L  T H E  F O R M</span>
+
+                                <span id="dostext">C O N T A C T</span>
+                                <div class="dosp">
+                                 <p>
                                 One of our representatives will contact
-                                you to setup you account.
-                            </p>
+                                </p>
+                                <p>you to setup you account.</p>   
+                                </div>
+                                
+                            </div>
 
                         </div>
                     </div>
+
 
                 </Col>
             </Row>

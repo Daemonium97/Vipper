@@ -256,11 +256,15 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
 }
 .all6{
     background-image: linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225);
-    padding-bottom: 150px;
+    padding-bottom: 60px;
 }
 .regis{
     padding-left: 60px;
-    padding-top: 110px;
+    padding-top: 200px;
+}
+.regis2{
+    padding-left: 60px;
+    
 }
 .TitleRegis{
     color: rgb(107, 96, 36);
@@ -290,20 +294,34 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
     font-family: 'Montserrat', sans-serif;
     font-size: 200px;
     color: rgb(107, 96, 36);
+    padding-left: 70px;
     
 }
 #unotext{
-    color: rgb(107, 96, 36);
+    color: rgb(202, 186, 95);
     font-size: 20px;
+    letter-spacing: 2px;
+}
+#dostext{
+    color: rgb(202, 186, 95);
+    font-size: 20px;
+    margin-left: 210px;
+    letter-spacing: 4px;
 }
 #dos{
     font-family: 'Montserrat', sans-serif;
     font-size:200px;
     color: rgb(107, 96, 36);
+    
 }
 .num{
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 300px;
+}
+.dosp{
+    margin-left: 430px;
+    color: rgb(223, 211, 147);
+
 }
