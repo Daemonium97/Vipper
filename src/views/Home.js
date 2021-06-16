@@ -1,6 +1,6 @@
 import React from 'react'
 import '../views/Home.css'
-import { Carousel, Container, Row, Col, Card } from 'react-bootstrap'
+import { Carousel, Container, Row, Col, Card, Button } from 'react-bootstrap'
 
 import image1 from '../images_home/1.jpg'
 import image2 from '../images_home/2.jpg'
@@ -243,11 +243,11 @@ export const WhyVip = () => {
                         </div>
                     </h1>
                     <div>
-                        <p id="mai2" className="mt-5">We have hired professional bookies to tailor VIP per head as a profitable and safe betting business. 
+                        <p id="mai2" className="mt-5">We have hired professional bookies to tailor VIP per head as a profitable and safe betting business.
                         </p>
                     </div>
                     <div>
-                        <p id="mai2" className="mt-5">Vip Per Head tools and services allow bookies to create a business that operates 24 hours a day, seven days a week. 
+                        <p id="mai2" className="mt-5">Vip Per Head tools and services allow bookies to create a business that operates 24 hours a day, seven days a week.
                         </p>
                     </div>
                     <div>
@@ -281,6 +281,118 @@ export const WhyVip = () => {
             </Row>
 
 
+        </Container>
+    )
+}
+
+export const FullSet = () => {
+    return (
+        <Container fluid className="all5">
+            <h1>
+                <div id="titleFull">A FULL SET OF
+                SERVICES
+</div>
+            </h1>
+            <Row>
+                <Col lg={true}>
+                    <div className="list">
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li>More than 20 years of experience.</li>
+                            <li>Trust and discretion.</li>
+                            <li>Professional sportsbook site</li>
+                            <li>Bilingual staff</li>
+                            <li>Reduce your cost</li>
+                            <li>The best product in the market</li>
+                            <li>Online and phone wagering</li>
+                            <li>24/7 service</li>
+                            <li>Injury reports</li>
+
+                        </ul>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="list">
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li>Line management</li>
+                            <li>Accurate Injury Reports</li>
+                            <li>Agent Lines Management</li>
+                            <li>Bilingual Staff Eng/spa</li>
+                            <li>Customize Player Profile</li>
+                            <li>Customize Your Website</li>
+                            <li>Highly Secure Website</li>
+                            <li>Lines Monitoring 24/7</li>
+                        </ul>
+                    </div>
+
+                </Col>
+                <Col lg={true}>
+                    <div className="list">
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li>Live Casino</li>
+                            <li>Mobile Interface</li>
+                            <li>Online Casino</li>
+                            <li>Online Reports</li>
+                            <li>Pay Per Customer Activity</li>
+                            <li>Privacy And Security</li>
+                            <li>Racebook</li>
+                            <li>Sharpest Lines in Industry</li>
+                            <li>Real-Time Online Access To Accounts</li>
+                        </ul>
+                    </div>
+
+                </Col>
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <div >
+                    <button type="button" id="bu">More</button>
+                </div>
+
+            </Row>
+
+        </Container>
+
+    )
+}
+
+export const Register = () => {
+    return (
+        <Container fluid className="all6">
+            <Row>
+                <Col lg={true}>
+                    <div>
+                        <h1>REGISTRATION NOW</h1>
+                    </div>
+                    <div>
+                        <p> JOIN THE SELECT GROUP OF BOOKIES
+                        THAT USE VIP PER HEAD TODAY.
+                        COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL
+                        </p>
+                    </div>
+
+                </Col>
+                <Col lg={true}>
+                    <div>
+                        <h1>YOU ARE READY!</h1>
+                    </div>
+                    <div><h2>START RUNNING YOUR WINNING BRAND.</h2></div>
+                    <div>
+                        <div>
+                            <span>1</span>
+                            <span>F I L L T H E F O R M</span>
+                        </div>
+                        <div>
+                            <span>2</span>
+                            <span>C O N T A C T</span>
+                            <p>
+                                One of our representatives will contact
+                                you to setup you account.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </Col>
+            </Row>
         </Container>
     )
 }
