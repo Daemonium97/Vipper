@@ -254,3 +254,35 @@ li{
     background: rgb(74,75,53);
 background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%, rgba(203,185,138,1) 61%, rgba(74,75,53,1) 80%);
 }
+.all6{
+    background-image: linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225);
+    padding-bottom: 150px;
+}
+.regis{
+    padding-left: 60px;
+    padding-top: 110px;
+}
+.TitleRegis{
+    color: rgb(107, 96, 36);
+    font-size: 50px;
+    font-weight: bold;
+}
+.TitleRegis2{
+    color: rgb(107, 96, 36);
+    font-size: 37px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.TitleRegis3{
+    color: rgb(182, 174, 128);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.textRegis{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+
+}

@@ -359,22 +359,27 @@ export const Register = () => {
         <Container fluid className="all6">
             <Row>
                 <Col lg={true}>
-                    <div>
-                        <h1>REGISTRATION NOW</h1>
+                    <div className="regis">
+                      <div >
+                        <h1 className="TitleRegis">REGISTRATION NOW</h1>
                     </div>
-                    <div>
-                        <p> JOIN THE SELECT GROUP OF BOOKIES
-                        THAT USE VIP PER HEAD TODAY.
-                        COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL
-                        </p>
+                    <div className="textRegis">
+                        <p>JOIN THE SELECT GROUP OF BOOKIES</p>
+                        <p>THAT USE VIP PER HEAD TODAY.</p>
+                        <p>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p>
+                    </div>  
                     </div>
+                    
 
                 </Col>
                 <Col lg={true}>
-                    <div>
-                        <h1>YOU ARE READY!</h1>
+                  
+                    <div className="">
+                        <h1 className="TitleRegis2">YOU ARE READY!</h1>
                     </div>
-                    <div><h2>START RUNNING YOUR WINNING BRAND.</h2></div>
+                    <div>
+                        <h2 className="TitleRegis3">START RUNNING YOUR WINNING BRAND.</h2>
+                        </div>
                     <div>
                         <div>
                             <span>1</span>
