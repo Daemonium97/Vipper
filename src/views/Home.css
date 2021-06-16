@@ -325,3 +325,26 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
     color: rgb(223, 211, 147);
 
 }
+.all7{
+    background: black;
+    padding-top: 130px;
+}
+
+.BlogHomeTitle{
+    text-align: center;
+    color: rgb(107, 96, 36);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+#Jhon{
+    color: white;
+    text-align: center;
+}
+#Jhon strong{
+    color: rgb(107, 96, 36);
+}
+#Jhon1{
+    color: rgb(107, 96, 36);
+}

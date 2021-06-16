@@ -14,6 +14,16 @@ import call from '../images_home/callcenter.jpg'
 import betting from '../images_home/livebetting.jpg'
 import casino from '../images_home/livecasino.jpg'
 import online from '../images_home/online_casino.jpg'
+import blog_investing from '../blog_images/blog-investing.jpg'
+import blog_web from '../blog_images/blog-professional-web.jpg'
+import blog_book from '../blog_images/blog-sportsbook-bussiness.jpg'
+
+
+
+
+
+
+
 
 export const Home = () => {
     return (
@@ -391,12 +401,12 @@ export const Register = () => {
 
                                 <span id="dostext">C O N T A C T</span>
                                 <div class="dosp">
-                                 <p>
-                                One of our representatives will contact
+                                    <p>
+                                        One of our representatives will contact
                                 </p>
-                                <p>you to setup you account.</p>   
+                                    <p>you to setup you account.</p>
                                 </div>
-                                
+
                             </div>
 
                         </div>
@@ -405,6 +415,104 @@ export const Register = () => {
 
                 </Col>
             </Row>
+        </Container>
+    )
+}
+
+export const BlogHome = () => {
+    return (
+        <Container fluid className="all7">
+            <h1 className="BlogHomeTitle">BLOG</h1>
+            <Row>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={blog_web} alt="" id="ImageSports" />
+
+                        </Card>
+
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={blog_book} alt="" id="ImageSports" />
+
+                        </Card>
+
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="fut1">
+                        <Card className="bg-dark text-white">
+                            <Card.Img src={blog_investing} alt="" id="ImageSports" />
+
+                        </Card>
+
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={true}>
+                    <div className="mt-2" id="Jhon">
+                        <p>Posted by John
+
+                        </p>
+                        <p>09 February in  <strong>News</strong></p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="mt-2" id="Jhon">
+                        <p>Posted by John
+
+                        </p>
+                        <p>09 February in  <strong>Category</strong></p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="mt-2" id="Jhon">
+                        <p>Posted by John
+
+                        </p>
+                        <p>09 February in  <strong>Category</strong></p>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={true}>
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="mt-3" id="Jhon">
+                        <p id="Jhon1">2020 COLLEGE BASKETBALL REGULAR
+                        SEASON BETTING PREDICTIONS
+                        </p>
+                        <p>With the 2019/2020 College Basketball
+                            season in its early st…</p>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={true}></Col>
+                <Col lg={true}></Col>
+                <Col lg={true}></Col>
+            </Row>
+
         </Container>
     )
 }
