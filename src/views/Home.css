@@ -357,8 +357,8 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
     font-size: 17px;
     line-height: 42px;
     height: 43px;
-    border-radius: 1px;
-    
+    border-radius: 3px;
+    margin-right: 70px;
     border: none;
   }
   
@@ -384,3 +384,9 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
     width:100%;
     transition:800ms ease all;
   }
+  #iconShare{
+      width: 30px;
+      height: 30px;
+      margin-left: 60px;
+  }
+  

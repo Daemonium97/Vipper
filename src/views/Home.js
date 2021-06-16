@@ -18,6 +18,7 @@ import online from '../images_home/online_casino.jpg'
 import blog_investing from '../blog_images/blog-investing.jpg'
 import blog_web from '../blog_images/blog-professional-web.jpg'
 import blog_book from '../blog_images/blog-sportsbook-bussiness.jpg'
+import share from '../icons/pngegg.png'
 
 
 
@@ -447,7 +448,7 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/>
+                    <img src={share} alt="" id="iconShare"/>
                     <button class="custom-btn btn-5"><span>Read More</span></button>
                     </div>
 
@@ -474,7 +475,7 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/>
+                    <img src={share} alt="" id="iconShare"/>
                     <button class="custom-btn btn-5"><span>Read More</span></button>
                     </div>
 
@@ -502,13 +503,23 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src="https://img.icons8.com/cotton/64/000000/share-document.png"/><span className="text-white">Share</span>
-                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                    <img src={share} alt="" id="iconShare"/>
+                    <button class="custom-btn btn-5" id="buttonShare"><span>Read More</span></button>
                     </div>
 
                 </Col>
             </Row>
             
+
+        </Container>
+    )
+}
+export const Payments = () => {
+    return(
+        <Container fluid>
+            <Row>
+
+            </Row>
 
         </Container>
     )
