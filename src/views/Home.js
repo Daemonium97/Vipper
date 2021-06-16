@@ -215,6 +215,76 @@ export const Premium = () => {
     )
 }
 
+export const WhyVip = () => {
+    return (
+        <Container fluid className="all4">
+            <h1>
+                <div id="titleVip">WHY VIP PER HEAD</div>
+            </h1>
+            <Row>
+
+                <div className="vip">
+                    <p id="mai3">VIP Per Head is a company focused on providing the best Pay Per Head service on the market. The VIP Per Head team has more than 20 years of experience in the industry. We know the needs of bookies and gamblers in depth. All this knowledge translates into a Pay Per Head service, whose main objective is to provide a premium experience for everyone.</p>
+                </div>
+                <div className="vip2">
+                    <p id="mai4">Our platform is a state-of-the-art white label bookmaking management solution built ourselves by our in-house team of experts.</p>
+                </div>
+            </Row>
+
+
+            <Row>
+                <Col lg={true}>
+                    <h1 id="h1vip">
+                        <div id="titleVip2">THE BEST ALLY FOR
+                        YOUR
+                        </div>
+                        <div id="titleVip2">BETTING
+                        BUSINESS
+                        </div>
+                    </h1>
+                    <div>
+                        <p id="mai2" className="mt-5">We have hired professional bookies to tailor VIP per head as a profitable and safe betting business. 
+                        </p>
+                    </div>
+                    <div>
+                        <p id="mai2" className="mt-5">Vip Per Head tools and services allow bookies to create a business that operates 24 hours a day, seven days a week. 
+                        </p>
+                    </div>
+                    <div>
+                        <p id="mai2" className="mt-5">The bookie will be able to delegate a large part of the operational task to the Vip Per Head team, which means that your business will continue to function even while you are asleep, and best of all, it will continue to generate income.
+                        </p>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <h1 id="h1vip">
+                        <div id="titleVip2">LOW
+                        </div>
+                        <div id="titleVip2">OPERATION COST
+                        </div>
+                    </h1>
+                    <div>
+                        <p id="mai2" className="mt-5">Using VIP Per Head services is the best way to establish a fully functional betting business with large companies’ features at a low operating cost.
+
+                        </p>
+                    </div>
+                    <div>
+                        <p id="mai2" className="mt-5">
+                            VIP Per Head charges a weekly fee per active player. Bookies will be able to use all the tools and services of VIP Per Head and will only have to pay for players who have placed a bet during the month.
+                        </p>
+                    </div>
+                    <div>
+                        <p id="mai2" className="mt-5">
+                            VIP Per Head charges a weekly fee per active player. Bookies will be able to use all the tools and services of VIP Per Head and will only have to pay for players who have placed a bet during the month.
+                        </p>
+                    </div>
+                </Col>
+            </Row>
+
+
+        </Container>
+    )
+}
+
 
 
 
