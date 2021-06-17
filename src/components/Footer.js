@@ -64,9 +64,10 @@ export const Footer = () => {
                     <div>
                         BETTING FEATURES
                     </div>
-                    <div>
+                    <div >
                         <ul style={{
-                            listStyleType: 'none'
+                            listStyleType: 'none',
+                            paddingLeft: '1px'
 
                         }}>
                             <li style={{ color: '#aca375' }}>Sports betting </li>
@@ -82,9 +83,42 @@ export const Footer = () => {
 
                 </Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>PROMOS</Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>BENEFITS</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
+                    <div>BENEFITS</div>
+                    <div>
+                        <ul style={{
+                            listStyleType: 'none',
+                            paddingLeft: '1px'
+
+                        }}>
+                            <li style={{ color: '#aca375' }}>Referral Program</li>
+                            <li style={{ color: '#aca375' }}>VIP Loyalty Program</li>
+                        </ul>
+                    </div>
+                </Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>CONTACT US</Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>QUICK CONTACT</Col>
+            </Row>
+            <Row style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
+                <div style={{ color: '#8d7e4d', paddingLeft: '50px' }}>Copyright 2010 - 2019 VIP Per Head</div>
+                <div >
+                    <ul style={{
+                        listStyle: 'none',
+                        paddingLeft: '1px',
+                        display: 'inline-flex',
+                        gap: '30px',
+                        paddingRight:'50px'
+
+                    }}>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>GLOSAARY</li>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>FAQ</li>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SITE MAP</li>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SIGN UP</li>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ICONO</li>
+                    </ul>
+                </div>
+
+
             </Row>
         </Container>
     )
