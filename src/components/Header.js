@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import mic from '../icons/mic.png'
 import Logo from '../icons/mainLogo.png'
+import {Screen} from '../components/Modal'
 
 export const Header = () => {
     return (
@@ -81,20 +82,7 @@ export const NavBar = props => {
         <div>
             <Navbar color="dark" dark>
                 <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
-                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-                <Collapse isOpen={!collapsed} navbar id="cola">
-                    <Nav navbar>
-                        <NavItem>
-                            <Link to="/About">
-                            <NavLink id="nav">About Us</NavLink>
-                            </Link>
-                            
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#" id="nav">GitHub</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Collapse>
+                <Screen/>
             </Navbar>
         </div>
     );
