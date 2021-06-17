@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../icons/mainLogo.png'
 import mic from '../icons/mic.png'
 import vip from '../icons/VIPPerHead_logo.png'
+import '../components/Footer.css'
 
 
 export const Footer = () => {
@@ -12,20 +13,10 @@ export const Footer = () => {
             <Row style={{background: 'linear-gradient(90deg, rgba(108,93,55,1) 21%, rgba(199,182,136,1) 41%, rgba(250,229,175,1) 61%, rgba(68,50,18,1) 80%)', paddingTop:'10px'}}></Row>
             <Row>
                 <Col lg={true} style={{}} className="d-flex justify-content-start">
-                    <img src={vip} alt="" style={{
-                        width: '450px',
-                        height: '120px'
-
-                    }} />
+                    <img src={vip} id="perhead" alt="" />
                 </Col>
-                <Col lg={true} style={{
-                    display: 'flex',
-                    justifyContent: 'end',
-                    gap: '70px',
-                    paddingTop: '50px'
-
-                }}>
-                    <div style={{ marginLeft: '190px' }}>
+                <Col lg={true} id="colu1">
+                    <div  id="numbers">
                         <div style={{ color: '#aca375' }}>1-888-992-3891</div>
                         <div style={{ color: 'white' }}>Call Us for Free Us</div>
                     </div>
