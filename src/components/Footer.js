@@ -38,16 +38,17 @@ export const Footer = () => {
                     <div className="mega d-flex justify-content-center">
                         <div className="main">
                             <div className="social">
-                                <a href="#"><img src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
+                                <a href="#"><img src="https://img.icons8.com/nolan/37/facebook.png" style={{paddingTop:'3px'}}/></a>
                                 <a href="#" id="in">in</a>
-                                <img src={mic} id="mic" />
+                                <a href="#"><img src="https://img.icons8.com/nolan/37/twitter.png" style={{paddingTop:'3px'}}/></a>
+                                
                             </div>
 
 
                         </div>
                         <div className="main2">
                             <div className="lan">
-                                <a href="#">EN</a>
+                                <a href="#" style={{color: '#aca375'}}>EN</a>
                                 <span style={{ color: 'white' }}> | </span>
                                 <a href="#">ES</a>
                             </div>
@@ -56,7 +57,7 @@ export const Footer = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row style={{paddingBottom: '20px'}}>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} className="d-flex justify-content-center">
                     PRODUCTS
                 </Col>
