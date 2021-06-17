@@ -12,25 +12,25 @@ export const Footer = () => {
             <Row>
                 <Col lg={true} style={{}} className="d-flex justify-content-start">
                     <img src={vip} alt="" style={{
-                        width:'450px',
-                        height: '120px',
-                        
-                    }}/>
+                        width: '450px',
+                        height: '120px'
+
+                    }} />
                 </Col>
-                <Col lg={true} style={{ 
+                <Col lg={true} style={{
                     display: 'flex',
                     justifyContent: 'end',
                     gap: '70px',
                     paddingTop: '50px'
-                    
-                     }}>
-                    <div style={{marginLeft: '190px'}}>
-                        <div style={{color: '#aca375'}}>1-888-992-3891</div>
-                        <div style={{color: 'white'}}>Call Us for Free Us</div>
+
+                }}>
+                    <div style={{ marginLeft: '190px' }}>
+                        <div style={{ color: '#aca375' }}>1-888-992-3891</div>
+                        <div style={{ color: 'white' }}>Call Us for Free Us</div>
                     </div>
                     <div>
-                        <div style={{color: '#aca375'}}>01-800-099-0754</div>
-                        <div style={{color: 'white'}}>Call Us for Free Mexico</div>
+                        <div style={{ color: '#aca375' }}>01-800-099-0754</div>
+                        <div style={{ color: 'white' }}>Call Us for Free Mexico</div>
                     </div>
                 </Col>
                 <Col lg={true}>
@@ -54,6 +54,37 @@ export const Footer = () => {
                         </div>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} className="d-flex justify-content-center">
+                    PRODUCTS
+                </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>BETTING SOFTWARE </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
+                    <div>
+                        BETTING FEATURES
+                    </div>
+                    <div>
+                        <ul style={{
+                            listStyleType: 'none'
+
+                        }}>
+                            <li style={{ color: '#aca375' }}>Sports betting </li>
+                            <li style={{ color: '#aca375' }}>Live betting </li>
+                            <li style={{ color: '#aca375' }}>Mobile betting </li>
+                            <li style={{ color: '#aca375' }}>Horses and racebook </li>
+                            <li style={{ color: '#aca375' }}>Casino</li>
+                            <li style={{ color: '#aca375' }}>Live Casino</li>
+                            <li style={{ color: '#aca375' }}>Pools</li>
+                            <li style={{ color: '#aca375' }}>Squares</li>
+                        </ul>
+                    </div>
+
+                </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>PROMOS</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>BENEFITS</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>CONTACT US</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>QUICK CONTACT</Col>
             </Row>
         </Container>
     )
