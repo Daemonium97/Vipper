@@ -448,8 +448,8 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src={share} alt="" id="iconShare"/>
-                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                        <img src={share} alt="" id="iconShare" />
+                        <button class="custom-btn btn-5"><span>Read More</span></button>
                     </div>
 
                 </Col>
@@ -475,8 +475,8 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src={share} alt="" id="iconShare"/>
-                    <button class="custom-btn btn-5"><span>Read More</span></button>
+                        <img src={share} alt="" id="iconShare" />
+                        <button class="custom-btn btn-5"><span>Read More</span></button>
                     </div>
 
                 </Col>
@@ -503,22 +503,22 @@ export const BlogHome = () => {
                             season in its early st…</p>
                     </div>
                     <div className="d-flex justify-content-between">
-                    <img src={share} alt="" id="iconShare"/>
-                    <button class="custom-btn btn-5" id="buttonShare"><span>Read More</span></button>
+                        <img src={share} alt="" id="iconShare" />
+                        <button class="custom-btn btn-5" id="buttonShare"><span>Read More</span></button>
                     </div>
 
                 </Col>
             </Row>
-            
+
 
         </Container>
     )
 }
 export const Payments = () => {
-    return(
+    return (
         <Container fluid className="all8">
             <Row className="d-flex justify-content-center">
-                <Col lg={true} style={{display: 'flex'}} className="d-flex justify-content-center">
+                <Col lg={true} style={{ display: 'flex' }} className="d-flex justify-content-center">
                     <div class="paymentsText">
                         <div>
                             <h2>
@@ -538,12 +538,43 @@ export const Payments = () => {
 
                     </div>
                 </Col>
-                <Col lg={true} style={{display: 'flex'}} className="d-flex justify-content-center">
+                <Col lg={true} style={{ display: 'flex' }} className="d-flex justify-content-center">
                     <div className="paymentsMethods">
                         <img src="http://vipperhead.ag/images/payments-methods.png" alt="" />
                     </div>
                 </Col>
-                
+
+            </Row>
+            <div style={{ background: 'black' }}><div className="arrowDown"></div> </div>
+
+        </Container>
+
+    )
+}
+
+export const Join = () => {
+    return (
+        <Container fluid className="all9">
+            <Row style={{ display: 'flex' }} className="d-flex justify-content-center">
+                <div className="joinText">
+                    <h2>
+                        <div style={{ color: 'white', color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
+                        <div style={
+                            { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
+                    </h2>
+                    <button class="custom-btn btn-5"
+                        style={{
+                            marginLeft: '490px',
+                            color: 'black',
+                            background: '#c9c397',
+                            marginTop: '30px',
+                            fontSize: '15px',
+                            fontWeight: 'bold'
+                            
+
+                        }}><span>JOIN TODAY</span></button>
+                </div>
+
             </Row>
 
         </Container>

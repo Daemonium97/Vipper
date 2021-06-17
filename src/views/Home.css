@@ -110,6 +110,13 @@
     height: 500px;
     
 }
+@media only screen and (max-width: 600px){
+    #ImageSports{
+         width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
 
 #textSports{
     position:absolute;
@@ -393,6 +400,8 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
   .all8{
       background: rgba(214,205,156,255);
       padding-top: 70px;
+      
+      z-index: 10;
   }
   
   .paymentsText h2{
@@ -412,6 +421,23 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
       justify-content: center;
       align-items: center;
       display: flex;
-
   }
   
+  .arrowDown{
+     background: black;
+    height: 0;
+    width: 0 !important;
+    border-style: solid;
+    border-width: 20px 50px 0 50px;
+    border-color: #d6cd9c #000 !important;
+    margin: 0 auto !important;
+  }
+
+  .all9{
+      background: black;
+
+  }
+  .joinText{
+      padding-top: 150px;
+      padding-bottom: 110px;
+  }

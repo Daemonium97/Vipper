@@ -5,7 +5,7 @@ import './index.css'
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header, Logoo, NavBar } from './components/Header'
-import {Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments} from './views/Home'
+import {Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments, Join} from './views/Home'
 
 
 
@@ -23,6 +23,7 @@ ReactDOM.render(
       <Register/>
       <BlogHome/>
       <Payments/>
+      <Join/>
       </Route>
       <Route exact path="/About">
       <Header/>
