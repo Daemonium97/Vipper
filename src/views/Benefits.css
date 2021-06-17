@@ -22,6 +22,7 @@
     width: 100%; 
     
 }
+
 @media only screen and (max-width: 600px){
     #imageB1{
          width: 100%;
@@ -29,6 +30,31 @@
         object-fit: cover;
     }
 }
+#imageB2{
+    height: auto;
+    width: 100%; 
+}
+@media only screen and (max-width: 600px){
+    #imageB2{
+         width: 100%;
+        
+        object-fit: cover;
+    }
+}
+.textA{
+    margin-top: 32px;
+    margin-left: 780px;
+    font-size: 20px;
+    width: 400px;
+    height: auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    display: block;
+
+}
+
 .textB{
     padding-top: 50px;
 }

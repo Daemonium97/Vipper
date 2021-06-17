@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import bene1 from '../benefits_images/Bennefits1.jpg'
 import bene2 from '../benefits_images/Bennefits2.jpg'
 import bene3 from '../benefits_images/Bennefits3.jpg'
@@ -14,7 +14,7 @@ export const Benefits = () => {
             </div>
 
 
-            <Row>
+            <Row style={{ paddingBottom: '20px' }}>
 
                 <Col lg={true}>
                     <h2>
@@ -31,8 +31,27 @@ export const Benefits = () => {
                     <img src={bene1} alt="" id="imageB1" />
                 </Col>
             </Row>
-            <Row>
-                <img src={bene2} alt="" id="imageB1" />
+            <Row >
+                <div>
+                    <Card className="bg-dark text-white" style={{ padding: '1px' }}>
+                        <Card.Img src={bene2} alt="" id="imageB2" />
+                        <Card.ImgOverlay>
+                            <div style={{ background: '#23001a' }} className="textA">
+                                <p>Such as: free week, discounts of up to
+                                </p>
+                                <p style={{color:'#8e834c'}}>50% off in a week,</p>
+                                <p>best prices and percentage</p>
+                                <p>discounts on our services, and more!
+                                </p>
+
+                            </div>
+
+                        </Card.ImgOverlay>
+                    </Card>
+                </div>
+
+
+
             </Row>
             <Row>
                 <Col lg={true}>
