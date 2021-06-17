@@ -27,7 +27,7 @@ import share from '../icons/pngegg.png'
 export const Home = () => {
     return (
         <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img
                     className="imageHome"
                     src={image1}
@@ -35,7 +35,7 @@ export const Home = () => {
                 />
 
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img
                     className="imageHome"
                     src={image2}
@@ -43,21 +43,21 @@ export const Home = () => {
                 />
 
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img
                     className="imageHome"
                     src={image3}
                     alt=""
                 />
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img
                     className="imageHome"
                     src={image4}
                     alt=""
                 />
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img
                     className="imageHome"
                     src={image5}

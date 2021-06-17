@@ -1,24 +1,33 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Logo from '../icons/mainLogo.png'
+import mic from '../icons/mic.png'
 
 
 export const Footer = () => {
     return (
         <Container fluid style={{ background: '#170512' }}>
             <Row>
-                <Col lg={true}>
-                    <img src={Logo} alt="" />
+                <Col lg={true} style={{}} className="d-flex justify-content-start">
+                    <img src={Logo} alt="" style={{
+                        width:'100%',
+                        height: '60px'
+                    }}/>
                 </Col>
-                <Col lg={true}>
+                <Col lg={true} style={{ 
+                    display: 'flex',
+                    justifyContent: 'end',
+                    gap: '70px'
+                    
+                     }}>
                     <div>
-                        <div>1-888-992-3891</div>
-                        <div>Call Us for Free Us</div>
+                        <div style={{color: '#aca375'}}>1-888-992-3891</div>
+                        <div style={{color: 'white'}}>Call Us for Free Us</div>
                     </div>
                     <div>
-                        <div >01-800-099-0754</div>
-                        <div>Call Us for Free Mexico</div>
+                        <div style={{color: '#aca375'}}>01-800-099-0754</div>
+                        <div style={{color: 'white'}}>Call Us for Free Mexico</div>
                     </div>
                 </Col>
                 <Col lg={true}>
@@ -46,5 +55,3 @@ export const Footer = () => {
         </Container>
     )
 }
-
-

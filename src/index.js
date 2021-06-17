@@ -5,7 +5,8 @@ import './index.css'
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header, Logoo, NavBar } from './components/Header'
-import {Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments, Join} from './views/Home'
+import { Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments, Join } from './views/Home'
+import {Footer} from './components/Footer'
 
 
 
@@ -13,22 +14,23 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path="/">
-        <Header/>
-        <NavBar/>
-       <Home/>
-       <Business/>
-       <Premium/>
-       <WhyVip/>
-      <FullSet/>
-      <Register/>
-      <BlogHome/>
-      <Payments/>
-      <Join/>
+        <Header />
+        <NavBar />
+        <Home />
+        <Business />
+        <Premium />
+        <WhyVip />
+        <FullSet />
+        <Register />
+        <BlogHome />
+        <Payments />
+        <Join />
+        <Footer />
       </Route>
       <Route exact path="/About">
-      <Header/>
-      <NavBar/>
-      <Logoo ImageLogo="https://f.vividscreen.info/soft/b369907c79cb1bb9aef2f088fb6e0dcd/Hello-Kitty-1920x1080.jpg" TitleName="About Us" />
+        <Header />
+        <NavBar />
+        <Logoo ImageLogo="https://f.vividscreen.info/soft/b369907c79cb1bb9aef2f088fb6e0dcd/Hello-Kitty-1920x1080.jpg" TitleName="About Us" />
       </Route>
 
     </Switch>
@@ -38,7 +40,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 
