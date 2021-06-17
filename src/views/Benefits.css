@@ -9,11 +9,37 @@
 }
 .titles h3{
     color:#6b6e4f;
-    
+}
+#subtitle1{
+    font-size: 50px;
+}
+#subtitle2{
+    font-size: 70px;
 }
 #imageB1{
     margin-top: 20px;
-    height: 526px;
+    height: auto;
     width: 100%; 
     
+}
+@media only screen and (max-width: 600px){
+    #imageB1{
+         width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+.textB{
+    padding-top: 50px;
+}
+.textB p{
+    font-size: 30px;
+}
+.textC{
+
+    margin-top: 90px;
+   
+}
+.textC p{
+    font-size: 30px;
 }
