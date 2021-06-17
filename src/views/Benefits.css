@@ -1,0 +1,19 @@
+.titles{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.titles h2{
+    color: #878046;
+}
+.titles h3{
+    color:#6b6e4f;
+    
+}
+#imageB1{
+    margin-top: 20px;
+    height: 526px;
+    width: 100%; 
+    
+}
