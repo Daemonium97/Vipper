@@ -25,7 +25,10 @@ export const Header = () => {
                 </Col>
                 <Col lg={true}>
                     <div className="d-flex justify-content-center">
-                        <img src={Logo} alt="" id="image" />
+                        <Link to="/">
+                           <img src={Logo} alt="" id="image" /> 
+                        </Link>
+                        
                     </div>
 
                 </Col>
