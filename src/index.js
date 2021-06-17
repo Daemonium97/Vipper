@@ -79,7 +79,7 @@ ReactDOM.render(
         <Logoo ImageLogo={promo} TitleName="Promos"/>
         <Footer/>
       </Route>
-      <Route exact path="Software_Features">
+      <Route exact path="/Software_Features">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={software} TitleName="SOFTWARE FEATURES"/>

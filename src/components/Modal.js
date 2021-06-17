@@ -36,12 +36,12 @@ export const Screen = () => {
 
                         }} onClick={handleClose}>BETTING SOFTWARE</div>
                     </Link>
-                    <Link to="/Bettting_Features" style={{ textDecoration: 'none' }}>
+                    <Link to="/Software_Features" style={{ textDecoration: 'none' }}>
                         <div style={{
                             color: '#938551',
                             fontSize: '20px'
 
-                        }} onClick={handleClose}>BETTING FEATURES</div>
+                        }} onClick={handleClose}>SOFTWARE FEATURES</div>
                     </Link>
                     <Link to="/Promo" style={{ textDecoration: 'none' }}>
                         <div style={{
