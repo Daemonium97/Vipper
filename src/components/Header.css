@@ -21,6 +21,7 @@
     width: 130px;
     padding: 8px ;
     
+    
 }
 
 .mega{
@@ -72,12 +73,13 @@
 
 #logo{
     width: 100%;
-    height: 720px;
+     object-fit: cover;
 }
 @media only screen and (max-width: 600px){
     #logo{
        width: 100%;
        height: 200px;
+       object-fit: cover;
     }
 }
 #title{

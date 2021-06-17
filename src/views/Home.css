@@ -4,7 +4,8 @@
 }
 .imageHome{
     width: 100%;
-    height: 1080px;
+    object-fit: cover;
+    
     
 }
 @media only screen and (max-width: 600px){
