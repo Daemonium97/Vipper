@@ -24,9 +24,6 @@ import share from '../icons/pngegg.png'
 
 
 
-
-
-
 export const Home = () => {
     return (
         <Carousel>
@@ -518,7 +515,7 @@ export const Payments = () => {
     return (
         <Container fluid className="all8">
             <Row className="d-flex justify-content-center">
-                <Col lg={true} style={{ display: 'flex' }} className="d-flex justify-content-center">
+                <Col lg={true} style={{ display: 'flex', paddingBottom: '70px' }} className="d-flex justify-content-center">
                     <div class="paymentsText">
                         <div>
                             <h2>
@@ -566,11 +563,10 @@ export const Join = () => {
                         style={{
                             marginLeft: '490px',
                             color: 'black',
-                            background: '#c9c397',
+                            background: '#716a43',
                             marginTop: '30px',
                             fontSize: '15px',
                             fontWeight: 'bold'
-                            
 
                         }}><span>JOIN TODAY</span></button>
                 </div>
