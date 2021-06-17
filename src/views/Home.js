@@ -516,8 +516,8 @@ export const BlogHome = () => {
 }
 export const Payments = () => {
     return(
-        <Container fluid>
-            <Row>
+        <Container fluid className="all8">
+            <Row className="d-flex justify-content-center">
                 <div className="paymentsBox">
                     <div class="paymentsText">
                         <div>

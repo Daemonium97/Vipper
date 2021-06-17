@@ -389,4 +389,23 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
       height: 30px;
       margin-left: 60px;
   }
+
+  .all8{
+      background: rgba(214,205,156,255);
+      padding-top: 70px;
+  }
+  .paymentsBox{
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+  }
+  .paymentsText{
+
+  }
+
+  .paymentsMethods{
+      align-items: center;
+      display: flex;
+
+  }
   
