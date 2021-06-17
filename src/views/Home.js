@@ -1,7 +1,7 @@
 import React from 'react'
 import '../views/Home.css'
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap'
-import {Button} from 'reactstrap'
+
 
 import image1 from '../images_home/1.jpg'
 import image2 from '../images_home/2.jpg'
@@ -518,7 +518,29 @@ export const Payments = () => {
     return(
         <Container fluid>
             <Row>
-                
+                <div className="paymentsBox">
+                    <div class="paymentsText">
+                        <div>
+                            <h2>
+                                <div>AVAILABLE</div>
+                                <div>PAYMENT OPTIONS</div>
+                            </h2>
+                        </div>
+                        <div>
+                            <p>Convenient and easy payment methods.</p>
+                        </div>
+                        <div>
+                            <p>Whether it’s bitcoin or major payment providers,</p>
+                        </div>
+                        <div>
+                            <p>you can pay your way.</p>
+                        </div>
+
+                    </div>
+                    <div className="paymentsMethods">
+                        <img src="http://vipperhead.ag/images/payments-methods.png" alt="" />
+                    </div>
+                </div>
             </Row>
 
         </Container>
