@@ -352,17 +352,16 @@ export const FullSet = () => {
                 </Col>
             </Row>
             <Row className="d-flex justify-content-center">
-            <button class="custom-btn btn-5"
-                        style={{
-                            marginLeft: '70px',
-                            color: 'black',
-                            background: '#716a43',
-                            marginTop: '30px',
-                            fontSize: '15px',
-                            fontWeight: 'bold',
-                            width: '90px'
-
-                        }}><span>MORE</span></button>
+                <button class="custom-btn btn-5"
+                    style={{
+                        marginLeft: '70px',
+                        color: 'black',
+                        background: '#716a43',
+                        marginTop: '30px',
+                        fontSize: '15px',
+                        fontWeight: 'bold',
+                        width: '90px'
+                    }}><span>MORE</span></button>
 
             </Row>
 
@@ -523,7 +522,12 @@ export const Payments = () => {
     return (
         <Container fluid className="all8">
             <Row className="d-flex justify-content-center">
-                <Col lg={true} style={{ display: 'flex', paddingBottom: '70px' }} className="d-flex justify-content-center">
+                <Col lg={true} style={{
+                    display: 'flex',
+                    paddingBottom: '70px',
+                    background: 'rgba(214,205,156,255)',
+                    paddingTop: '70px'
+                }} className="d-flex justify-content-center">
                     <div class="paymentsText">
                         <div>
                             <h2>
@@ -543,7 +547,7 @@ export const Payments = () => {
 
                     </div>
                 </Col>
-                <Col lg={true} style={{ display: 'flex' }} className="d-flex justify-content-center">
+                <Col lg={true} style={{ display: 'flex', background: '#d6cd9c' }} className="d-flex justify-content-center">
                     <div className="paymentsMethods">
                         <img src="http://vipperhead.ag/images/payments-methods.png" alt="" />
                     </div>

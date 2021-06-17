@@ -398,10 +398,7 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
   }
 
   .all8{
-      background: rgba(214,205,156,255);
-      padding-top: 70px;
-      
-      z-index: 10;
+      background: black;
   }
   
   .paymentsText h2{
