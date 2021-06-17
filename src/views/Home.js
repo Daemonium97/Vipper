@@ -518,7 +518,7 @@ export const Payments = () => {
     return(
         <Container fluid className="all8">
             <Row className="d-flex justify-content-center">
-                <div className="paymentsBox">
+                <Col lg={true} style={{display: 'flex'}} className="d-flex justify-content-center">
                     <div class="paymentsText">
                         <div>
                             <h2>
@@ -537,10 +537,13 @@ export const Payments = () => {
                         </div>
 
                     </div>
+                </Col>
+                <Col lg={true} style={{display: 'flex'}} className="d-flex justify-content-center">
                     <div className="paymentsMethods">
                         <img src="http://vipperhead.ag/images/payments-methods.png" alt="" />
                     </div>
-                </div>
+                </Col>
+                
             </Row>
 
         </Container>

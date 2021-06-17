@@ -394,16 +394,22 @@ background: linear-gradient(90deg, rgba(74,75,53,1) 23%, rgba(196,179,134,1) 46%
       background: rgba(214,205,156,255);
       padding-top: 70px;
   }
-  .paymentsBox{
-      display: flex;
-      justify-content: space-between;
-      gap: 100px;
-  }
-  .paymentsText{
+  
+  .paymentsText h2{
+      color: black;
+      font-size: 50px;
+      font-weight: bold;
 
+
+  }
+  .paymentsText p{
+      color: black;
+      padding-top: 3px;
+      font-weight: bold;
   }
 
   .paymentsMethods{
+      justify-content: center;
       align-items: center;
       display: flex;
 
