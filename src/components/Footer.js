@@ -9,6 +9,7 @@ import vip from '../icons/VIPPerHead_logo.png'
 export const Footer = () => {
     return (
         <Container fluid style={{ background: '#1b0015' }}>
+            <Row style={{background: 'linear-gradient(90deg, rgba(108,93,55,1) 21%, rgba(199,182,136,1) 41%, rgba(250,229,175,1) 61%, rgba(68,50,18,1) 80%)', paddingTop:'10px'}}></Row>
             <Row>
                 <Col lg={true} style={{}} className="d-flex justify-content-start">
                     <img src={vip} alt="" style={{
@@ -100,14 +101,14 @@ export const Footer = () => {
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>QUICK CONTACT</Col>
             </Row>
             <Row style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
-                <div style={{ color: '#8d7e4d', paddingLeft: '50px' }}>Copyright 2010 - 2019 VIP Per Head</div>
+                
                 <div >
                     <ul style={{
                         listStyle: 'none',
                         paddingLeft: '1px',
                         display: 'inline-flex',
                         gap: '30px',
-                        paddingRight:'50px'
+                        paddingLeft:'50px'
 
                     }}>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>GLOSAARY</li>
@@ -117,6 +118,7 @@ export const Footer = () => {
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ICONO</li>
                     </ul>
                 </div>
+                <div style={{ color: '#8d7e4d', paddingRight: '50px' }}>Copyright 2010 - 2019 VIP Per Head</div>
 
 
             </Row>
