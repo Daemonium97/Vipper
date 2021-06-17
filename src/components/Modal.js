@@ -43,7 +43,7 @@ export const Screen = () => {
                             color: '#938551',
                             fontSize: '20px'
 
-                        }}>BENEFITS</div>
+                        }} onClick={handleClose}>BENEFITS</div>
                     </Link>
 
                     <div style={{
