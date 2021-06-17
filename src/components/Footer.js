@@ -16,9 +16,10 @@ export const Footer = () => {
                     <img src={vip} id="perhead" alt="" />
                 </Col>
                 <Col lg={true} id="colu1">
-                    <div  id="numbers">
+                    <div >
                         <div style={{ color: '#aca375' }}>1-888-992-3891</div>
                         <div style={{ color: 'white' }}>Call Us for Free Us</div>
+
                     </div>
                     <div>
                         <div style={{ color: '#aca375' }}>01-800-099-0754</div>
