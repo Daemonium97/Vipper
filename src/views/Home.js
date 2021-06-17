@@ -567,7 +567,7 @@ export const Join = () => {
             <Row style={{ display: 'flex' }} className="d-flex justify-content-center">
                 <div className="joinText">
                     <h2>
-                        <div style={{ color: 'white', color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
+                        <div style={{color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
                         <div style={
                             { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
                     </h2>

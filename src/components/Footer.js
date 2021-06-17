@@ -3,25 +3,28 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Logo from '../icons/mainLogo.png'
 import mic from '../icons/mic.png'
+import vip from '../icons/VIPPerHead_logo.png'
 
 
 export const Footer = () => {
     return (
-        <Container fluid style={{ background: '#170512' }}>
+        <Container fluid style={{ background: '#1b0015' }}>
             <Row>
                 <Col lg={true} style={{}} className="d-flex justify-content-start">
-                    <img src={Logo} alt="" style={{
-                        width:'100%',
-                        height: '60px'
+                    <img src={vip} alt="" style={{
+                        width:'450px',
+                        height: '120px',
+                        
                     }}/>
                 </Col>
                 <Col lg={true} style={{ 
                     display: 'flex',
                     justifyContent: 'end',
-                    gap: '70px'
+                    gap: '70px',
+                    paddingTop: '50px'
                     
                      }}>
-                    <div>
+                    <div style={{marginLeft: '190px'}}>
                         <div style={{color: '#aca375'}}>1-888-992-3891</div>
                         <div style={{color: 'white'}}>Call Us for Free Us</div>
                     </div>

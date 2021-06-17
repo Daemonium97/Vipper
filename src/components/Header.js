@@ -5,6 +5,7 @@ import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import mic from '../icons/mic.png'
+import Logo from '../icons/mainLogo.png'
 
 export const Header = () => {
     return (
@@ -23,7 +24,7 @@ export const Header = () => {
                 </Col>
                 <Col lg={true}>
                     <div className="d-flex justify-content-center">
-                        <img src="https://thumbs.dreamstime.com/z/logotipo-del-club-casino-vector-y-ejemplo-133049302.jpg" alt="" id="image" />
+                        <img src={Logo} alt="" id="image" />
                     </div>
 
                 </Col>
