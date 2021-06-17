@@ -18,7 +18,7 @@ export const Header = () => {
                     </div>
                     <div>
                         <div id="call">01-800-099-0754</div>
-                        <div>Call Us for Free Us</div>
+                        <div>Call Us for Free Mexico</div>
                     </div>
                 </Col>
                 <Col lg={true}>
