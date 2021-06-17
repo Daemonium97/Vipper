@@ -352,9 +352,17 @@ export const FullSet = () => {
                 </Col>
             </Row>
             <Row className="d-flex justify-content-center">
-                <div >
-                    <button type="button" id="bu">More</button>
-                </div>
+            <button class="custom-btn btn-5"
+                        style={{
+                            marginLeft: '70px',
+                            color: 'black',
+                            background: '#716a43',
+                            marginTop: '30px',
+                            fontSize: '15px',
+                            fontWeight: 'bold',
+                            width: '90px'
+
+                        }}><span>MORE</span></button>
 
             </Row>
 
