@@ -43,6 +43,48 @@ ReactDOM.render(
         <About/>
         <Footer/>
       </Route>
+      <Route exact path="/Benefits">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={benefits} TitleName="Benefits"/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Betting_Software">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={betting} TitleName="BETTING SOFTWARE"/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Blog">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={blog} TitleName="BLOG"/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Contact">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={contact} TitleName="CONTACT"/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Products">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={products} TitleName="PRODUCTS"/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Promo">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={promo} TitleName="Promos"/>
+        <Footer/>
+      </Route>
+      <Route exact path="Software_Features">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={software} TitleName="SOFTWARE FEATURES"/>
+        <Footer/>
+      </Route>
 
     </Switch>
 
