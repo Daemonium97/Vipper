@@ -64,6 +64,20 @@ export const Screen = () => {
 
                         }} onClick={handleClose}>CONTACT US.</div>
                     </Link>
+                    <Link to="/About" style={{ textDecoration: 'none' }}>
+                        <div style={{
+                            color: '#938551',
+                            fontSize: '20px'
+
+                        }} onClick={handleClose}>ABOUT US</div>
+                    </Link>
+                    <Link to="/Blog" style={{ textDecoration: 'none' }}>
+                        <div style={{
+                            color: '#938551',
+                            fontSize: '20px'
+
+                        }} onClick={handleClose}>BLOG</div>
+                    </Link>
 
                 </Modal.Body>
             </Modal>
