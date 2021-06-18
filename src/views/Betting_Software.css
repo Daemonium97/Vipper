@@ -27,7 +27,7 @@
     height: 90px;
 }
 .diCo{
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 #imaBS{
     margin-top: 20px;
@@ -46,9 +46,21 @@
 #sub1{
 
     font-weight: bold;
+    font-size: 50px;
 
 }
 #sub2{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
+}
+h6{
+    padding-left: 170px;
+
+}
+.textoA{
+    padding-left: 170px;
+    font-size: 20px;
+}
+#pS2{
+    padding-bottom: 50px;
 }

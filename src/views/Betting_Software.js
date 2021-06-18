@@ -51,29 +51,45 @@ export const Betting_Software = () => {
             </Row>
             <Row className="d-flex justify-content-center text-center">
                 <div className="text3">
-                    <p style={{color:'white'}}>With this software, the bookie can manage its players, set betting limits, set alerts for sports, lines, or players,</p>
-                    <p style={{color:'white'}}>move lines, close the accounts of dangerous players or debtors, and many other features.</p>
+                    <p style={{ color: 'white' }}>With this software, the bookie can manage its players, set betting limits, set alerts for sports, lines, or players,</p>
+                    <p style={{ color: 'white' }}>move lines, close the accounts of dangerous players or debtors, and many other features.</p>
                 </div>
                 <div className="diCo">
-                    <img src={sportB} alt="" id="icoBS"/>
-                    <img src={liveB} alt="" id="icoBS"/>
-                    <img src={mobile} alt="" id="icoBS"/>
-                    <img src={horses} alt="" id="icoBS"/>
-                    <img src={casino} alt="" id="icoBS"/>
-                    <img src={liveC} alt="" id="icoBS"/>
-                    <img src={poker} alt="" id="icoBS"/>
-                    <img src={squares} alt="" id="icoBS"/>
+                    <img src={sportB} alt="" id="icoBS" />
+                    <img src={liveB} alt="" id="icoBS" />
+                    <img src={mobile} alt="" id="icoBS" />
+                    <img src={horses} alt="" id="icoBS" />
+                    <img src={casino} alt="" id="icoBS" />
+                    <img src={liveC} alt="" id="icoBS" />
+                    <img src={poker} alt="" id="icoBS" />
+                    <img src={squares} alt="" id="icoBS" />
                 </div>
             </Row>
             <Row>
                 <Col lg={true}>
-                    <h1>
-                        <div style={{color:'white'}} id="sub1">SPORTS</div>
-                        <div style={{color:'#8e834d'}} id="sub2">BETTING</div>
-                    </h1>
+                    <h6>
+                        <div style={{ color: 'white' }} id="sub1">SPORTS</div>
+                        <div style={{ color: '#8e834d' }} id="sub2">BETTING</div>
+                    </h6>
+                    <div className="textoA">
+                        <p style={{ color: 'white' }}>Bookies that use VIP Per Head services can offer their bettors</p>
+                        <p style={{ color: 'white' }}>a wide range of betting options, including traditional but</p>
+                        <p style={{ color: 'white' }}>popular leagues such as the NFL, MLB, NBA, and NHL. The</p>
+                        <p style={{ color: 'white' }}>players will also access international betting options such as
+                        </p>
+                        <p style={{ color: 'white' }}>tennis, soccer, and even the Olympic games. VIP Per Head
+                        </p>
+                        <p style={{ color: 'white' }}>goes one step further and includes other types of betting
+                        </p>
+                        <p style={{ color: 'white' }} id="pS2">options such as politics and entertainment.</p>
+                        <p style={{color:'#8b7a42'}}>With a catalog of betting options as complete as this</p>
+                        <p style={{color:'#8b7a42'}}>one, bookies can serve all types of customers,</p>
+                        <p style={{color:'#8b7a42'}}>ensuring a more profitable betting business.</p>
+
+                    </div>
                 </Col>
                 <Col lg={true}>
-                    <img src={SB} alt="" id="imaBS"/>
+                    <img src={SB} alt="" id="imaBS" />
                 </Col>
             </Row>
         </Container>
