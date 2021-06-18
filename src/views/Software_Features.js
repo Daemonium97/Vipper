@@ -69,7 +69,13 @@ export const Software_Features = () => {
                 <span>AND MUCH MORE</span>
             </div>
             <Row>
+                <Col lg={true} className="text-center">
+                    <div>
+                        <p style={{color:'white'}}>VIP PER HEAD HAS ALL THE TOOLS THAT PROFESSIONAL BOOKIES</p>
+                        <p style={{color:'white'}}>NEED TO SUCCEED IN THEIR BUSINESS</p>
+                    </div>
 
+                </Col>
             </Row>
         </Container>
     )
