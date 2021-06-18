@@ -11,7 +11,7 @@ export const Products = () => {
     return (
         <Container fluid>
             <Row style={{ background: 'black', textAlign: 'center', justifyContent: 'center' }} >
-                <div style={{ padding: '80px 4px 90px 4px', fontSize: '20px' }}>
+                <div style={{ padding: '80px 4px 90px 4px', fontSize: '25px' }}>
                     <p style={{ color: 'white' }}>Our developers offer a wide variety of designs to supply your need. They fulfill practical solutions for those who
                     </p>
                     <p style={{ color: 'white' }}>have physical control, such as restaurants and sports bars, to be able to meet the most demanding
@@ -105,8 +105,25 @@ export const Products = () => {
                     <img src={casino} alt="" id="ImagePro" style={{ padding: '50px 30px 70px 30px' }} />
                 </Col>
             </Row>
-            <Row>
-                
+            <Row style={{ background: 'black', textAlign: 'center', justifyContent: 'center', paddingBottom:'80px', paddingTop:'80px' }}>
+                <div>
+                    <p style={{color:'#a4a776', fontSize:'30px'}}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</p>
+                    <p style={{color:'#90985a',fontSize:'25px'}}>Complete the form and access a free 3-week trial.</p>
+                    <button class="custom-btn bt-5"
+                    style={{
+                        border:'none',
+                        borderRadius:'3px',
+                        color: 'black',
+                        background: '#716a43',
+                        marginTop: '20px',
+                        fontSize: '15px',
+                        fontWeight: 'bold',
+                        width: '110px',
+                        height:'40px'
+                    }}><span>JOIN TODAY</span></button>
+
+                </div>
+
             </Row>
 
 
