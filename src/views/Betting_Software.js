@@ -6,9 +6,10 @@ import horses from '../betting_software/horses-gold.png'
 import liveB from '../betting_software/livebetting-gold.png'
 import liveC from '../betting_software/livecasino-gold.png'
 import mobile from '../betting_software/mobilebetting-gold.png'
-import poker from '../betting_software/poker-gold-png'
+import poker from '../betting_software/poker-gold.png'
 import sportB from '../betting_software/sportbetting-gold.png'
 import squares from '../betting_software/squares-gold.png'
+import SB from '../betting_software/sportsbetting.jpg'
 
 export const Betting_Software = () => {
     return (
@@ -48,21 +49,32 @@ export const Betting_Software = () => {
                     </div>
                 </Col>
             </Row>
-            <Row className="d-flex justify-content-center text-center pt-5">
-                <div>
+            <Row className="d-flex justify-content-center text-center">
+                <div className="text3">
                     <p style={{color:'white'}}>With this software, the bookie can manage its players, set betting limits, set alerts for sports, lines, or players,</p>
                     <p style={{color:'white'}}>move lines, close the accounts of dangerous players or debtors, and many other features.</p>
                 </div>
-                <div>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
-                    <img src="" alt="" id="icoBS"/>
+                <div className="diCo">
+                    <img src={sportB} alt="" id="icoBS"/>
+                    <img src={liveB} alt="" id="icoBS"/>
+                    <img src={mobile} alt="" id="icoBS"/>
+                    <img src={horses} alt="" id="icoBS"/>
+                    <img src={casino} alt="" id="icoBS"/>
+                    <img src={liveC} alt="" id="icoBS"/>
+                    <img src={poker} alt="" id="icoBS"/>
+                    <img src={squares} alt="" id="icoBS"/>
                 </div>
+            </Row>
+            <Row>
+                <Col lg={true}>
+                    <h1>
+                        <div style={{color:'white'}} id="sub1">SPORTS</div>
+                        <div style={{color:'#8e834d'}} id="sub2">BETTING</div>
+                    </h1>
+                </Col>
+                <Col lg={true}>
+                    <img src={SB} alt="" id="imaBS"/>
+                </Col>
             </Row>
         </Container>
     )

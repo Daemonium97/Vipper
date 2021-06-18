@@ -14,6 +14,41 @@
     padding-top: 60px;
     font-size: 18px;
 }
+.text3{
+    padding-top: 140px;
+    font-size: 18px;
+}
+
 #pS{
     padding-bottom: 27px;
+}
+#icoBS{
+    width: 170px;
+    height: 90px;
+}
+.diCo{
+    padding-bottom: 40px;
+}
+#imaBS{
+    margin-top: 20px;
+    height: auto;
+    width: 100%; 
+    
+}
+
+@media only screen and (max-width: 600px){
+    #imaBS{
+         width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+#sub1{
+
+    font-weight: bold;
+
+}
+#sub2{
+    font-size: 60px;
+    font-weight: bold;
 }
