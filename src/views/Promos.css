@@ -1,0 +1,22 @@
+#ImageP{
+    height: auto;
+    
+}
+@media only screen and (max-width: 600px){
+    #ImageP{
+         width: 100%;
+        
+        object-fit: cover;
+    }
+}
+.to h2{
+    font-size: 70px;
+}
+.to p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    .to h2{
+         font-size: 50px;
+    }
+}
