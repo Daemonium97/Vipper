@@ -14,9 +14,9 @@ export const Benefits = () => {
             </div>
 
 
-            <Row style={{ paddingBottom: '20px' }}>
+            <Row style={{ paddingBottom: '20px' }} >
 
-                <Col lg={true}>
+                <Col lg={true} >
                     <h2>
                         <div style={{ color: 'white' }} id="subtitle1">VIP PER HEAD</div>
                         <div style={{ color: '#8e834d' }} id="subtitle2">LOYALTY PROGRAM</div>

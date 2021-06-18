@@ -17,6 +17,7 @@ import { Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments,
 import {Footer} from './components/Footer'
 import {About} from './views/About'
 import {Benefits} from './views/Benefits'
+import {Betting_Software} from './views/Betting_Software'
 
 
 
@@ -55,6 +56,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={betting} TitleName="BETTING SOFTWARE"/>
+        <Betting_Software/>
         <Footer/>
       </Route>
       <Route exact path="/Blog">

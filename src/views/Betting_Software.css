@@ -1,0 +1,19 @@
+.text1{
+    margin-left: 300px;
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 18px;
+}
+.text2{
+    margin-right: 300px;
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 18px;
+}
+#pS{
+    padding-bottom: 27px;
+}
