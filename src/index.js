@@ -19,6 +19,7 @@ import {About} from './views/About'
 import {Benefits} from './views/Benefits'
 import {Betting_Software} from './views/Betting_Software'
 import {Software_Features} from './views/Software_Features' 
+import {Products} from './views/Products'
 
 
 
@@ -76,6 +77,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={products} TitleName="PRODUCTS"/>
+        <Products/>
         <Footer/>
       </Route>
       <Route exact path="/Promo">

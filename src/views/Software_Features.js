@@ -123,7 +123,7 @@ export const Software_Features = () => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={true} style={{ display: 'flex' }} className="d-flex justify-content-center">
+                <Col lg={true}  className="d-flex justify-content-center">
                 <div className="joinText">
                     <h2>
                         <div style={{ color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
