@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import '../views/Software_Features.css'
 import { Link } from 'react-router-dom'
 import call from '../features_images/callcenter.jpg'
@@ -30,40 +30,46 @@ export const Software_Features = () => {
                     THE BEST BETTING SERVICES
                     </h2>
             </div>
-            <Row>
+            <Row >
 
                 <Col lg={true}>
-                    <div id="fut1">
-                        <img src={book} alt="" id="ImageSports" />
+                    <div className="fut1">
+                    <img src={book} alt="" id="ImageSports" />
                     </div>
                 </Col>
-                <Col lg={true} className="">
-                    <div id="fut1">
+                <Col lg={true} >
+                    <div className="fut1">
                         <img src={liveC} alt="" id="ImageSports" />
                     </div>
                 </Col>
                 <Col lg={true}>
-                    <div id="fut1">
+                    <div className="fut1">
                         <img src={online} alt="" id="ImageSports" />
                     </div>
                 </Col>
             </Row>
             <Row className="mt-5">
                 <Col lg={true}>
-                    <div id="fut1">
+                    <div className="fut1">
                         <img src={liveB} alt="" id="ImageSports" />
                     </div>
                 </Col>
                 <Col lg={true}>
-                    <div id="fut1">
+                    <div className="fut1">
                         <img src={horses} alt="" id="ImageSports" />
                     </div>
                 </Col>
                 <Col lg={true}>
-                    <div id="fut1">
+                    <div className="fut1">
                         <img src={call} alt="" id="ImageSports" />
                     </div>
                 </Col>
+            </Row>
+            <div id="services2">
+                <span>AND MUCH MORE</span>
+            </div>
+            <Row>
+
             </Row>
         </Container>
     )
