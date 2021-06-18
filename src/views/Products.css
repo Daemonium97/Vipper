@@ -9,3 +9,11 @@
         object-fit: cover;
     }
 }
+.ti h3{
+    font-size: 70px;
+}
+@media only screen and (max-width: 600px){
+    .ti h3{
+         font-size: 50px;
+    }
+}

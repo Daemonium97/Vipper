@@ -20,20 +20,17 @@ export const Products = () => {
                 </div>
             </Row>
             <Row style={{ background: '#1f0017' }}>
-                <Col lg={4}>
-                    <div style={{ padding: '140px 2px 10px 2px', textAlign: 'center' }}>
-                        <h4 style={{ color: '#b2a879', fontSize: '70px' }}>
-                            SPORTSBOOK
-                        </h4>
+            <Col lg={4}>
+                    <div className="ti" style={{ padding: '110px 2px 10px 2px', textAlign: 'center' }}>
+                        <h3 style={{ color: '#b2a879' }}>SPORTSBOOK</h3>
+                        
                     </div>
                     <div style={{ textAlign: 'center' }}>
-                        <p style={{ color: 'white', fontSize: '22px' }}>Our developers have expertly created
+                        <p style={{ color: 'white', fontSize: '22px' }}>The best designer has created</p>
+                        <p style={{ color: 'white', fontSize: '22px' }}>premium skins. We have a wide variety</p>
+                        <p style={{ color: 'white', fontSize: '22px' }}>for you to decide which one suits your
 </p>
-                        <p style={{ color: 'white', fontSize: '22px' }}>a sportsbook software ready to be</p>
-                        <p style={{ color: 'white', fontSize: '22px' }}>installed on your website and entertain
-</p>
-                        <p style={{ color: 'white', fontSize: '22px' }}>your visitors. You will never be short of</p>
-                        <p style={{ color: 'white', fontSize: '22px' }}>sharp lines and betting options.</p>
+                        <p style={{ color: 'white', fontSize: '22px' }}>brand best.</p>
                     </div>
                 </Col>
                 <Col lg={true}>
@@ -44,9 +41,9 @@ export const Products = () => {
             </Row>
             <Row style={{ background: 'black' }}>
                 <Col lg={4}>
-                    <div style={{ padding: '140px 2px 10px 2px', textAlign: 'center' }}>
-                        <h3 style={{ color: '#b2a879', fontSize: '70px' }}>SKINS</h3>
-                        <h3 style={{ color: '#b2a879', fontSize: '70px' }}>Premium</h3>
+                    <div className="ti" style={{ padding: '110px 2px 10px 2px', textAlign: 'center' }}>
+                        <h3 style={{ color: '#b2a879' }}>SKINS</h3>
+                        <h3 style={{ color: '#b2a879' }}>Premium</h3>
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <p style={{ color: 'white', fontSize: '22px' }}>The best designer has created</p>
@@ -62,9 +59,9 @@ export const Products = () => {
             </Row>
             <Row style={{ background: '#1f0017' }}>
                 <Col lg={4}>
-                    <div style={{ padding: '140px 2px 10px 2px', textAlign: 'center' }}>
-                        <h3 style={{ color: '#b2a879', fontSize: '70px' }}>EPOS</h3>
-                        
+                    <div className="ti" style={{ padding: '110px 2px 10px 2px', textAlign: 'center' }}>
+                        <h3 style={{ color: '#b2a879' }}>EPOS</h3>
+
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <p style={{ color: 'white', fontSize: '22px' }}>EPOS stands for Electronic Point Of Sale.</p>
@@ -87,9 +84,9 @@ export const Products = () => {
             </Row>
             <Row style={{ background: 'black' }}>
                 <Col lg={4}>
-                    <div style={{ padding: '140px 2px 10px 2px', textAlign: 'center' }}>
-                        <h3 style={{ color: '#b2a879', fontSize: '70px' }}>CASINO</h3>
-                        
+                    <div className="ti" style={{ padding: '110px 2px 10px 2px', textAlign: 'center' }}>
+                        <h3 style={{ color: '#b2a879' }}>CASINO</h3>
+
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <p style={{ color: 'white', fontSize: '22px' }}>We are affiliated with the best casino</p>
@@ -98,29 +95,29 @@ export const Products = () => {
                         <p style={{ color: 'white', fontSize: '22px' }}>Your customers will have loads of fun
 </p>
                         <p style={{ color: 'white', fontSize: '22px' }}>playing on these fantastic casinos.</p>
-                        
+
                     </div>
                 </Col>
                 <Col lg={true}>
                     <img src={casino} alt="" id="ImagePro" style={{ padding: '50px 30px 70px 30px' }} />
                 </Col>
             </Row>
-            <Row style={{ background: 'black', textAlign: 'center', justifyContent: 'center', paddingBottom:'80px', paddingTop:'80px' }}>
+            <Row style={{ background: 'black', textAlign: 'center', justifyContent: 'center', paddingBottom: '80px', paddingTop: '80px' }}>
                 <div>
-                    <p style={{color:'#a4a776', fontSize:'30px'}}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</p>
-                    <p style={{color:'#90985a',fontSize:'25px'}}>Complete the form and access a free 3-week trial.</p>
+                    <p style={{ color: '#a4a776', fontSize: '30px' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</p>
+                    <p style={{ color: '#90985a', fontSize: '25px' }}>Complete the form and access a free 3-week trial.</p>
                     <button class="custom-btn bt-5"
-                    style={{
-                        border:'none',
-                        borderRadius:'3px',
-                        color: 'black',
-                        background: '#716a43',
-                        marginTop: '20px',
-                        fontSize: '15px',
-                        fontWeight: 'bold',
-                        width: '110px',
-                        height:'40px'
-                    }}><span>JOIN TODAY</span></button>
+                        style={{
+                            border: 'none',
+                            borderRadius: '3px',
+                            color: 'black',
+                            background: '#716a43',
+                            marginTop: '20px',
+                            fontSize: '15px',
+                            fontWeight: 'bold',
+                            width: '110px',
+                            height: '40px'
+                        }}><span>JOIN TODAY</span></button>
 
                 </div>
 
