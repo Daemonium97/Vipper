@@ -1,11 +1,12 @@
 #ImageBlo{
-    height: auto;
+    height: 500px;
+    width: 500px;
     
 }
 @media only screen and (max-width: 600px){
     #ImageBlo{
          width: 100%;
-        
+        height: auto;
         object-fit: cover;
     }
 }
