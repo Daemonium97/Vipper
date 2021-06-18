@@ -70,13 +70,25 @@ export const Software_Features = () => {
             </div>
             <Row>
                 <Col lg={true} className="text-center">
-                    <div>
+                    <div className="Sotext2">
                         <p style={{color:'white'}}>VIP PER HEAD HAS ALL THE TOOLS THAT PROFESSIONAL BOOKIES</p>
                         <p style={{color:'white'}}>NEED TO SUCCEED IN THEIR BUSINESS</p>
                     </div>
 
                 </Col>
             </Row>
+            <Row>
+                <Col lg={true}>
+                    <div className="square">
+                        <div className="content">
+
+                        </div>
+                    </div>
+                </Col>
+                <Col lg={true}></Col>
+                <Col lg={true}></Col>
+            </Row>
+
         </Container>
     )
 }
