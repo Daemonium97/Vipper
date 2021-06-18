@@ -64,10 +64,12 @@ export const Logoo = props => {
     return (
         <Container fluid>
             <Row>
+               
+                   <span id="title">{props.TitleName}</span>
 
-                <span id="title">{props.TitleName}</span>
-
-                <img src={props.ImageLogo} alt="" id="logo" />
+                <img src={props.ImageLogo} alt="" id="logo" /> 
+                
+                
             </Row>
 
 

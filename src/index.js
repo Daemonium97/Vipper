@@ -18,6 +18,7 @@ import {Footer} from './components/Footer'
 import {About} from './views/About'
 import {Benefits} from './views/Benefits'
 import {Betting_Software} from './views/Betting_Software'
+import {Software_Features} from './views/Software_Features' 
 
 
 
@@ -87,6 +88,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={software} TitleName="SOFTWARE FEATURES"/>
+        <Software_Features/>
         <Footer/>
       </Route>
 
