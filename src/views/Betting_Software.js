@@ -13,7 +13,7 @@ import SB from '../betting_software/sportsbetting.jpg'
 
 export const Betting_Software = () => {
     return (
-        <Container fluid style={{ background: 'black', paddingTop: '50px', paddingBottom: '50px' }}>
+        <Container fluid style={{ background: 'black', paddingTop: '50px' }}>
             <Row className="d-flex justify-content-center">
                 <Col lg={true} >
                     <div style={{ background: '#23001a' }} className="text1">
@@ -82,15 +82,36 @@ export const Betting_Software = () => {
                         <p style={{ color: 'white' }}>goes one step further and includes other types of betting
                         </p>
                         <p style={{ color: 'white' }} id="pS2">options such as politics and entertainment.</p>
-                        <p style={{color:'#8b7a42'}}>With a catalog of betting options as complete as this</p>
-                        <p style={{color:'#8b7a42'}}>one, bookies can serve all types of customers,</p>
-                        <p style={{color:'#8b7a42'}}>ensuring a more profitable betting business.</p>
+                        <p style={{ color: '#8b7a42' }}>With a catalog of betting options as complete as this</p>
+                        <p style={{ color: '#8b7a42' }}>one, bookies can serve all types of customers,</p>
+                        <p style={{ color: '#8b7a42' }}>ensuring a more profitable betting business.</p>
 
                     </div>
                 </Col>
                 <Col lg={true}>
                     <img src={SB} alt="" id="imaBS" />
                 </Col>
+            </Row>
+            <Row style={{ display: 'flex' }} className="d-flex justify-content-center">
+                <div className="joinText">
+                    <h2>
+                        <div style={{ color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
+                        <div style={
+                            { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
+                    </h2>
+                    <button class="custom-btn btn-5"
+                        style={{
+                            marginLeft: '490px',
+                            color: 'black',
+                            background: '#716a43',
+                            marginTop: '30px',
+                            fontSize: '15px',
+                            fontWeight: 'bold'
+
+
+                        }}><span>JOIN TODAY</span></button>
+                </div>
+
             </Row>
         </Container>
     )

@@ -579,6 +579,7 @@ export const Join = () => {
                             marginTop: '30px',
                             fontSize: '15px',
                             fontWeight: 'bold'
+                            
 
                         }}><span>JOIN TODAY</span></button>
                 </div>
