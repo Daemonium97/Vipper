@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap'
 import '../views/Home2.css'
 
@@ -15,6 +16,9 @@ import liveC from '../features_images/livecasino.jpg'
 import online from '../features_images/online-casino.jpg'
 import book from '../features_images/sportsbook.jpg'
 import share from '../icons/pngegg.png'
+import money from '../blog_images/blog-investing.jpg'
+import web from '../blog_images/blog-professional-web.jpg'
+import mf from '../blog_images/blog-sportsbook-bussiness.jpg'
 
 export const Home2 = () => {
     return (
@@ -202,10 +206,10 @@ export const Home2 = () => {
                 </div>
 
             </Row>
-            <Row style={{background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding:'60px 0px 0px 0px', justifyContent:'flex-end'}}>
+            <Row style={{ background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding: '60px 0px 0px 0px', justifyContent: 'flex-end' }}>
                 <div className="ready">
-                    <h3 style={{color:'#6b6024'}}>YOU ARE READY!</h3>
-                    <h3 style={{color:'#aca379'}}>START RUNNING YOUR WINNING BRAND.</h3>
+                    <h3 style={{ color: '#6b6024' }}>YOU ARE READY!</h3>
+                    <h3 style={{ color: '#aca379' }}>START RUNNING YOUR WINNING BRAND.</h3>
                 </div>
 
             </Row>
@@ -236,6 +240,117 @@ you to setup you account.</p>
                     </div>
                 </Col>
 
+            </Row>
+            <Row style={{ background: 'black', padding: '60px 0px 0px 0px', justifyContent: 'center' }}>
+                <div className="blogt">
+                    <h3 style={{ color: '#685d23' }}>BLOG</h3>
+
+                </div>
+
+            </Row>
+            <Row style={{background:'black'}}>
+                <Col lg={4}>
+                <div style={{ width: 'fit-content' }}>
+                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
+                            <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
+                            <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
+                        </div>
+                        <div>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>2020 COLLEGE BASKETBALL REGULAR</p>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>SEASON BETTING PREDICTIONS</p>
+                            <p style={{ color: 'white' }}>With the 2019/2020 College Basketball
+</p>
+                            <p style={{ color: 'white' }}>season in its early st…
+</p>
+                        </div>
+                        <div className="d-flex justify-content-between">
+                            <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
+                            <Link to="/Blog_money"><button class="custom-btn btBlog-5"
+                                style={{
+                                    border: 'none',
+                                    borderRadius: '3px',
+                                    color: 'black',
+                                    background: '#716a43',
+
+                                    fontSize: '15px',
+                                    fontWeight: 'bold',
+                                    width: '110px',
+                                    height: '40px'
+
+                                }}><span>SEE MORE</span></button></Link>
+
+                        </div>
+                    </div>
+                </Col>
+                <Col lg={4}>
+                <div style={{ width: 'fit-content' }}>
+                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
+                            <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
+                            <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
+                        </div>
+                        <div>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>2020 COLLEGE BASKETBALL REGULAR</p>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>SEASON BETTING PREDICTIONS</p>
+                            <p style={{ color: 'white' }}>With the 2019/2020 College Basketball
+</p>
+                            <p style={{ color: 'white' }}>season in its early st…
+</p>
+                        </div>
+                        <div className="d-flex justify-content-between">
+                            <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
+                            <Link to="/Blog_money"><button class="custom-btn btBlog-5"
+                                style={{
+                                    border: 'none',
+                                    borderRadius: '3px',
+                                    color: 'black',
+                                    background: '#716a43',
+
+                                    fontSize: '15px',
+                                    fontWeight: 'bold',
+                                    width: '110px',
+                                    height: '40px'
+
+                                }}><span>SEE MORE</span></button></Link>
+
+                        </div>
+                    </div>
+                </Col>
+                <Col lg={4}>
+                <div style={{ width: 'fit-content' }}>
+                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
+                            <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
+                            <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
+                        </div>
+                        <div>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>2020 COLLEGE BASKETBALL REGULAR</p>
+                            <p style={{ color: '#b2a879', fontWeight: 'bold' }}>SEASON BETTING PREDICTIONS</p>
+                            <p style={{ color: 'white' }}>With the 2019/2020 College Basketball
+</p>
+                            <p style={{ color: 'white' }}>season in its early st…
+</p>
+                        </div>
+                        <div className="d-flex justify-content-between">
+                            <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
+                            <Link to="/Blog_money"><button class="custom-btn btBlog-5"
+                                style={{
+                                    border: 'none',
+                                    borderRadius: '3px',
+                                    color: 'black',
+                                    background: '#716a43',
+
+                                    fontSize: '15px',
+                                    fontWeight: 'bold',
+                                    width: '110px',
+                                    height: '40px'
+
+                                }}><span>SEE MORE</span></button></Link>
+
+                        </div>
+                    </div>
+                </Col>
             </Row>
 
 
