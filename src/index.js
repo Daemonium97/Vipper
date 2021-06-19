@@ -125,6 +125,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={software} TitleName="SOFTWARE FEATURES"/>
         <SoftwareFeatures/>
+        <Join2/>
         <Footer/>
       </Route>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import '../views/SoftwareFeatures.css'
 
 import call from '../features_images/callcenter.jpg'
@@ -26,7 +26,7 @@ export const SoftwareFeatures = () => {
                 </Col>
             </Row>
             <div id="services">
-                <h2>
+                <h2 style={{ color: 'white' }}>
                     THE BEST BETTING SERVICES
                     </h2>
             </div>
@@ -65,8 +65,8 @@ export const SoftwareFeatures = () => {
                     </div>
                 </Col>
             </Row>
-            <div id="services2">
-                <span>AND MUCH MORE</span>
+            <div id="services">
+                <span style={{ color: '#8a834d', fontSize: '30px' }}>AND MUCH MORE</span>
             </div>
             <Row>
                 <Col lg={true} className="text-center">
@@ -79,71 +79,44 @@ export const SoftwareFeatures = () => {
             </Row>
             <Row>
                 <Col lg={true} className="d-flex justify-content-center">
-                    <div className="square" style={{ background: '#190013' }}>
-                        <div className="content">
-                            <ul style={{ listStyle: 'none' }}>
-                                <li style={{color:'#988c61'}}>Customized Sportsbook website </li>
-                                <li style={{color:'#988c61'}}>Online/Phone Services</li>
-                                <li style={{color:'#988c61'}}>Instant Activity Report</li>
-                                <li style={{color:'#988c61'}}>Customizable</li>
-                                <li style={{color:'#988c61'}}>Agent profile </li>
-                            </ul>
+                    <Jumbotron style={{ background: '#190013' }}>
 
-                        </div >
-                    </div>
+                        <ul style={{ listStyle: 'none', paddingLeft:'1px'  }}>
+                            <li style={{ color: '#988c61' }}>Customized Sportsbook website </li>
+                            <li style={{ color: '#988c61' }}>Online/Phone Services</li>
+                            <li style={{ color: '#988c61' }}>Instant Activity Report</li>
+                            <li style={{ color: '#988c61' }}>Customizable</li>
+                            <li style={{ color: '#988c61' }}>Agent profile </li>
+                        </ul>
+                    </Jumbotron>
                 </Col>
                 <Col lg={true} className="d-flex justify-content-center">
-                    <div className="square" style={{ background: '#190013' }}>
-                        <div className="content">
-                            <ul style={{listStyle:'none', textAlign:'center', paddingRight:'7px'}}>
-                                <li style={{color:'#988c61'}}>Customizable Player Profile </li>
-                                <li style={{color:'#988c61'}}>Customizable limits</li>
-                                <li style={{color:'#988c61'}}>Master Account Management</li>
-                                <li style={{color:'#988c61'}}>Customizable Subagent Report
-</li>
-                                <li style={{color:'#988c61'}}>Management of Line Types
-</li>
-                            </ul>
+                    <Jumbotron style={{ background: '#190013' }}>
 
-                        </div>
-                    </div>
+                        <ul style={{ listStyle: 'none', textAlign: 'center', paddingLeft: '1px' }}>
+                            <li style={{ color: '#988c61' }}>Customizable Player Profile </li>
+                            <li style={{ color: '#988c61' }}>Customizable limits</li>
+                            <li style={{ color: '#988c61' }}>Master Account Management</li>
+                            <li style={{ color: '#988c61' }}>Customizable Subagent Report
+</li>
+                            <li style={{ color: '#988c61' }}>Management of Line Types
+</li>
+                        </ul>
+                    </Jumbotron>
                 </Col>
                 <Col lg={true} className="d-flex justify-content-center">
-                <div className="square" style={{ background: '#190013' }}>
-                        <div className="content">
-                            <ul style={{listStyle:'none'}}>
-                                <li style={{color:'#988c61'}}>Email Notification System</li>
-                                <li style={{color:'#988c61'}}>Limit all Services</li>
-                                <li style={{color:'#988c61'}}>Line Mover Option</li>
-                                
-                            </ul>
+                    <Jumbotron style={{ background: '#190013', textAlign:'center' }}>
 
-                        </div>
-                    </div>
+                        <ul style={{ listStyle: 'none', paddingLeft:'1px' }}>
+                            <li style={{ color: '#988c61' }}>Email Notification System</li>
+                            <li style={{ color: '#988c61' }}>Limit all Services</li>
+                            <li style={{ color: '#988c61' }}>Line Mover Option</li>
+
+                        </ul>
+                    </Jumbotron>
                 </Col>
             </Row>
-            <Row>
-                <Col lg={true}  className="d-flex justify-content-center">
-                <div className="joinText">
-                    <h2>
-                        <div style={{ color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
-                        <div style={
-                            { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
-                    </h2>
-                    <button class="custom-btn btn-5"
-                        style={{
-                            marginLeft: '490px',
-                            color: 'black',
-                            background: '#716a43',
-                            marginTop: '30px',
-                            fontSize: '15px',
-                            fontWeight: 'bold'
 
-
-                        }}><span>JOIN TODAY</span></button>
-                </div>
-                </Col>
-            </Row>
 
         </Container>
     )

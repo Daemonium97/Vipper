@@ -29,3 +29,12 @@
   li{
       font-size: 18px;
   }
+
+  #services{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .fut1{
+    padding-bottom: 20px;
+  }
