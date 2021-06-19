@@ -537,13 +537,15 @@ export const Payments = () => {
                         </div>
                         <div>
                             <p>Convenient and easy payment methods.</p>
-                        </div>
-                        <div>
+
+
                             <p>Whether it’s bitcoin or major payment providers,</p>
-                        </div>
-                        <div>
+
+
                             <p>you can pay your way.</p>
                         </div>
+
+
 
                     </div>
                 </Col>
@@ -567,7 +569,7 @@ export const Join = () => {
             <Row style={{ display: 'flex' }} className="d-flex justify-content-center">
                 <div className="joinText">
                     <h2>
-                        <div style={{color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
+                        <div style={{ color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
                         <div style={
                             { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
                     </h2>
@@ -579,7 +581,7 @@ export const Join = () => {
                             marginTop: '30px',
                             fontSize: '15px',
                             fontWeight: 'bold'
-                            
+
 
                         }}><span>JOIN TODAY</span></button>
                 </div>

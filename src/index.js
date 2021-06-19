@@ -26,7 +26,7 @@ import {SoftwareFeatures} from './views/SoftwareFeatures'
 import {Products} from './views/Products'
 import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
-import {Home2} from './views/Home2'
+import {Home2, Join2, Payments2} from './views/Home2'
 
 
 
@@ -35,6 +35,8 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/home2">
         <Home2/>
+        <Payments2/>
+        <Join2/>
       </Route>
       <Route exact path="/">
         <Header />

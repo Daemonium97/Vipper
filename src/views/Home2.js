@@ -248,10 +248,10 @@ you to setup you account.</p>
                 </div>
 
             </Row>
-            <Row style={{background:'black'}}>
-                <Col lg={4}>
+            <Row style={{background:'black', justifyContent:'center', paddingBottom:'60px'}} >
+                <Col lg={4} style={{justifyContent:'center'}}>
                 <div style={{ width: 'fit-content' }}>
-                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <img src={web} alt="" id="ImagesMain" style={{ padding: '40px 1px 1px 1px' }} />
                         <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
@@ -285,7 +285,7 @@ you to setup you account.</p>
                 </Col>
                 <Col lg={4}>
                 <div style={{ width: 'fit-content' }}>
-                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <img src={mf} alt="" id="ImagesMain" style={{ padding: '40px 1px 1px 1px' }} />
                         <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
@@ -319,7 +319,7 @@ you to setup you account.</p>
                 </Col>
                 <Col lg={4}>
                 <div style={{ width: 'fit-content' }}>
-                        <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
+                        <img src={money} alt="" id="ImagesMain" style={{ padding: '40px 1px 1px 1px' }} />
                         <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
@@ -352,7 +352,71 @@ you to setup you account.</p>
                     </div>
                 </Col>
             </Row>
+            
 
+
+
+        </Container>
+    )
+}
+
+export const Payments2 = () => {
+    return (
+        <Container fluid className="all8">
+            <Row className="d-flex justify-content-center" style={{background:'#d6cd9c'}}>
+                
+                    <div class="paymentsText">
+                        
+                            <h2>
+                                <div>AVAILABLE</div>
+                                <div>PAYMENT OPTIONS</div>
+                            </h2>
+                        
+                        <div>
+                            <p>Convenient and easy payment methods.</p>
+
+                            <p>Whether it’s bitcoin or major payment providers,</p>
+                            <p>you can pay your way.</p>
+                        </div>
+
+                    </div>
+                
+              
+                   
+                        <img src="http://vipperhead.ag/images/payments-methods.png" alt="" id="pay"/>
+                    
+               
+
+            </Row>
+            <div style={{ background: 'black' }}><div className="arrowDown"></div> </div>
+
+        </Container>
+
+    )
+}
+export const Join2 = () => {
+    return (
+        <Container fluid className="all9">
+            <Row style={{ background: 'black', textAlign: 'center', justifyContent: 'center', paddingBottom: '80px', paddingTop: '80px' }}>
+                <div>
+                    <p style={{ color: '#a4a776', fontSize: '30px' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</p>
+                    <p style={{ color: '#90985a', fontSize: '25px' }}>Complete the form and access a free 3-week trial.</p>
+                    <button class="custom-btn bt-5"
+                        style={{
+                            border: 'none',
+                            borderRadius: '3px',
+                            color: 'black',
+                            background: '#716a43',
+                            marginTop: '20px',
+                            fontSize: '15px',
+                            fontWeight: 'bold',
+                            width: '110px',
+                            height: '40px'
+                        }}><span>JOIN TODAY</span></button>
+
+                </div>
+
+            </Row>
 
         </Container>
     )
