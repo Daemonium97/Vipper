@@ -21,7 +21,7 @@ import {Betting_Software} from './views/Betting_Software'
 import {Software_Features} from './views/Software_Features' 
 import {Products} from './views/Products'
 import {Promos} from './views/Promos'
-import {Blog} from './views/Blog'
+import {Blog, BlogView} from './views/Blog'
 
 
 
@@ -70,6 +70,40 @@ ReactDOM.render(
         <Blog/>
         <Footer/>
       </Route>
+      <Route exact path="/Blog_money">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={blog} TitleName="BLOG"/>
+        <BlogView />
+        <Footer/>
+      </Route>
+      <Route exact path="/Blog_web">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={blog} TitleName="BLOG"/>
+        <BlogView />
+        <Footer/>
+      </Route>
+      <Route exact path="/Blog_fut">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={blog} TitleName="BLOG"/>
+        <BlogView />
+        <Footer/>
+      </Route>
+      <Route exact path="/Blog_phone">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={blog} TitleName="BLOG"/>
+        <BlogView />
+        <Footer/>
+      </Route>
+
+
+
+
+
+
       <Route exact path="/Contact">
         <Header/>
         <NavBar/>
