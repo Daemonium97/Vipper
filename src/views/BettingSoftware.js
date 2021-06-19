@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import '../views/BettingSoftware.css'
 import casino from '../betting_software/casino-gold.png'
 import horses from '../betting_software/horses-gold.png'
@@ -15,8 +15,10 @@ export const BettingSoftware = () => {
     return (
         <Container fluid style={{ background: 'black', paddingTop: '50px' }}>
             <Row className="d-flex justify-content-center">
-                <Col lg={true} >
-                    <div style={{ background: '#23001a' }} className="text1">
+
+                <Col lg={6}>
+                    <Jumbotron style={{ background: '#23001a', textAlign:'center' }}>
+
                         <p style={{ color: 'white' }}>VIP Per Head works with the best software developers on the
                             </p>
                         <p style={{ color: 'white' }}>market to create a robust, agile, and dynamic platform that
@@ -28,11 +30,13 @@ export const BettingSoftware = () => {
                         <p style={{ color: 'white' }}>This software has the highest security and privacy standards,</p>
                         <p style={{ color: 'white' }}>so the bookie can rest assured that third parties can’t access</p>
                         <p style={{ color: 'white' }}>his business’s sensitive information and his clients.</p>
-                    </div>
-
+                    </Jumbotron>
                 </Col>
-                <Col lg={true}>
-                    <div style={{ background: '#52491e' }} className="text2">
+
+
+                <Col lg={6}>
+                    <Jumbotron style={{ background: '#52491e', textAlign:'center' }}>
+
                         <p style={{ color: 'white' }}>At VIP Per Head, technology, processes, and people work as a
 </p>
                         <p style={{ color: 'white' }}>single well-geared machine to ensure the software is always
@@ -46,8 +50,10 @@ export const BettingSoftware = () => {
                         <p style={{ color: 'white' }}>time with all the activities and movements in the betting
                         </p>
                         <p style={{ color: 'white' }}>business.</p>
-                    </div>
+                    </Jumbotron>
                 </Col>
+
+
             </Row>
             <Row className="d-flex justify-content-center text-center">
                 <div className="text3">
@@ -92,7 +98,7 @@ export const BettingSoftware = () => {
                     <img src={SB} alt="" id="imaBS" />
                 </Col>
             </Row>
-            
+
         </Container>
     )
 }
