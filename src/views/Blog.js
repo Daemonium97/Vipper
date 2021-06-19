@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, FormControl } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 import '../views/Blog.css'
 import money from '../blog_images/blog-investing.jpg'
 import web from '../blog_images/blog-professional-web.jpg'
@@ -436,12 +437,25 @@ export const BlogView = props => {
                     </div>
                 </Col>
                 <Col lg={8}>
+                    <img sr={props.ImageNews} alt="" id="ImaN"/>
+                    <div className="d-flex justify-content-between">
+                        <p style={{color:'white'}}>Posted by <span style={{color:'#5f6134'}}>Jhon</span></p>
+                        <p style={{color:'white'}}>09 February</p>
+                        <p style={{color:'white'}}>in <span style={{color:'#5f6134'}}>News</span></p>
+                    </div>
+                    <div>
 
+                    </div>
                 </Col>
 
             </Row>
         </Container>
     )
+}
+
+BlogView.propTypes = {
+    ImageNews: PropTypes.any
+    
 }
 
 

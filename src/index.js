@@ -12,6 +12,10 @@ import contact from './pages_images/contact.jpg'
 import products from './pages_images/products.jpg'
 import promo from './pages_images/promo.jpg'
 import software from './pages_images/software-features.jpg'
+import money from '../blog_images/blog-investing.jpg'
+import web from '../blog_images/blog-professional-web.jpg'
+import mf from '../blog_images/blog-sportsbook-bussiness.jpg'
+import phone from '../blog_images/blog-grow-betting.jpg'
 import { Header, Logoo, NavBar } from './components/Header'
 import { Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments, Join } from './views/Home'
 import {Footer} from './components/Footer'
@@ -74,35 +78,30 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView />
+        <BlogView src={money}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_web">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView />
+        <BlogView src={web}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_fut">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView />
+        <BlogView src={mf}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_phone">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView />
+        <BlogView src={phone}/>
         <Footer/>
       </Route>
-
-
-
-
-
 
       <Route exact path="/Contact">
         <Header/>
