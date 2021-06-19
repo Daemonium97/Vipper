@@ -78,28 +78,28 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView src={money}/>
+        <BlogView ImageNews={money}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_web">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView src={web}/>
+        <BlogView ImageNews={web}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_fut">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView src={mf}/>
+        <BlogView ImageNews={mf}/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_phone">
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
-        <BlogView src={phone}/>
+        <BlogView ImageNews={phone}/>
         <Footer/>
       </Route>
 

@@ -437,7 +437,7 @@ export const BlogView = props => {
                     </div>
                 </Col>
                 <Col lg={8}>
-                    <img sr={props.ImageNews} alt="" id="ImaN" />
+                    <img src={props.ImageNews} alt="" id="ImaN" style={{paddingBottom:'30px'}} />
                     <div className="d-flex justify-content">
                         <p style={{ color: 'white' }}>Posted by <span style={{ color: '#5f6134' }}>Jhon</span></p>
                         <p style={{ color: 'white' }}>09 February</p>
