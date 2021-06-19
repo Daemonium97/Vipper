@@ -17,7 +17,7 @@ import web from './blog_images/blog-professional-web.jpg'
 import mf from './blog_images/blog-sportsbook-bussiness.jpg'
 import phone from './blog_images/blog-grow-betting.jpg'
 import { Header, Logoo, NavBar } from './components/Header'
-import { Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments, Join } from './views/Home'
+import { Present } from './views/Home'
 import {Footer} from './components/Footer'
 import {About} from './views/About'
 import {Benefits} from './views/Benefits'
@@ -33,23 +33,13 @@ import {Home2, Join2, Payments2} from './views/Home2'
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route exact path="/home2">
-        <Home2/>
-        <Payments2/>
-        <Join2/>
-      </Route>
       <Route exact path="/">
         <Header />
         <NavBar />
-        <Home />
-        <Business />
-        <Premium />
-        <WhyVip />
-        <FullSet />
-        <Register />
-        <BlogHome />
-        <Payments />
-        <Join />
+        <Present/>
+        <Home2 />
+        <Payments2 />
+        <Join2 />
         <Footer />
       </Route>
       <Route exact path="/About">

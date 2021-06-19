@@ -1,13 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Carousel, Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import '../views/Home2.css'
 
-import image1 from '../images_home/1.jpg'
-import image2 from '../images_home/2.jpg'
-import image3 from '../images_home/3.jpg'
-import image4 from '../images_home/4.jpg'
-import image5 from '../images_home/5.jpg'
+
 import image6 from '../images_home/6.jpg'
 import call from '../features_images/callcenter.jpg'
 import horses from '../features_images/horses.jpg'
