@@ -156,7 +156,7 @@ export const Blog = () => {
                 <Col lg={4} >
                     <div style={{ width: 'fit-content' }}>
                         <img src={money} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
-                        <div style={{ padding: '9px 0px 0px 0px' }}>
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
                         </div>
@@ -188,7 +188,7 @@ export const Blog = () => {
                     </div>
                     <div style={{ width: 'fit-content' }}>
                         <img src={web} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
-                        <div style={{ padding: '9px 0px 0px 0px' }}>
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
                         </div>
@@ -204,26 +204,26 @@ export const Blog = () => {
                             <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
                             <Link to="/Blog_web">
                                 <button class="custom-btn btBlog-5"
-                                style={{
-                                    border: 'none',
-                                    borderRadius: '3px',
-                                    color: 'black',
-                                    background: '#716a43',
+                                    style={{
+                                        border: 'none',
+                                        borderRadius: '3px',
+                                        color: 'black',
+                                        background: '#716a43',
 
-                                    fontSize: '15px',
-                                    fontWeight: 'bold',
-                                    width: '110px',
-                                    height: '40px'
+                                        fontSize: '15px',
+                                        fontWeight: 'bold',
+                                        width: '110px',
+                                        height: '40px'
 
-                                }}><span>SEE MORE</span></button></Link>
-                            
+                                    }}><span>SEE MORE</span></button></Link>
+
                         </div>
                     </div>
                 </Col>
                 <Col lg={4}>
                     <div style={{ width: 'fit-content' }}>
                         <img src={mf} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
-                        <div style={{ padding: '9px 0px 0px 0px' }}>
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
                         </div>
@@ -238,26 +238,26 @@ export const Blog = () => {
                         <div className="d-flex justify-content-between">
                             <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
                             <Link to="/Blog_fut">
-                               <button class="custom-btn btBlog-5"
-                                style={{
-                                    border: 'none',
-                                    borderRadius: '3px',
-                                    color: 'black',
-                                    background: '#716a43',
+                                <button class="custom-btn btBlog-5"
+                                    style={{
+                                        border: 'none',
+                                        borderRadius: '3px',
+                                        color: 'black',
+                                        background: '#716a43',
 
-                                    fontSize: '15px',
-                                    fontWeight: 'bold',
-                                    width: '110px',
-                                    height: '40px'
+                                        fontSize: '15px',
+                                        fontWeight: 'bold',
+                                        width: '110px',
+                                        height: '40px'
 
-                                }}><span>SEE MORE</span></button> 
+                                    }}><span>SEE MORE</span></button>
                             </Link>
-                            
+
                         </div>
                     </div>
                     <div style={{ width: 'fit-content' }}>
                         <img src={phone} alt="" id="ImageBlo" style={{ padding: '40px 1px 1px 1px' }} />
-                        <div style={{ padding: '9px 0px 0px 0px' }}>
+                        <div style={{ padding: '13px 0px 0px 0px' }}>
                             <p style={{ color: 'white' }}>Posted by <span style={{ color: '#727047' }}>Jhon</span></p>
                             <p style={{ color: 'white' }}>09 February  in <span style={{ color: '#727047' }}>News</span></p>
                         </div>
@@ -272,21 +272,21 @@ export const Blog = () => {
                         <div className="d-flex justify-content-between">
                             <img src={share} alt="" style={{ width: '30px', height: '30px' }} />
                             <Link to="/Blog_phone">
-                            <button class="custom-btn btBlog-5"
-                                style={{
-                                    border: 'none',
-                                    borderRadius: '3px',
-                                    color: 'black',
-                                    background: '#716a43',
+                                <button class="custom-btn btBlog-5"
+                                    style={{
+                                        border: 'none',
+                                        borderRadius: '3px',
+                                        color: 'black',
+                                        background: '#716a43',
 
-                                    fontSize: '15px',
-                                    fontWeight: 'bold',
-                                    width: '110px',
-                                    height: '40px'
+                                        fontSize: '15px',
+                                        fontWeight: 'bold',
+                                        width: '110px',
+                                        height: '40px'
 
-                                }}><span>SEE MORE</span></button>
+                                    }}><span>SEE MORE</span></button>
                             </Link>
-                            
+
                         </div>
                     </div>
 
@@ -437,13 +437,60 @@ export const BlogView = props => {
                     </div>
                 </Col>
                 <Col lg={8}>
-                    <img sr={props.ImageNews} alt="" id="ImaN"/>
-                    <div className="d-flex justify-content-between">
-                        <p style={{color:'white'}}>Posted by <span style={{color:'#5f6134'}}>Jhon</span></p>
-                        <p style={{color:'white'}}>09 February</p>
-                        <p style={{color:'white'}}>in <span style={{color:'#5f6134'}}>News</span></p>
+                    <img sr={props.ImageNews} alt="" id="ImaN" />
+                    <div className="d-flex justify-content">
+                        <p style={{ color: 'white' }}>Posted by <span style={{ color: '#5f6134' }}>Jhon</span></p>
+                        <p style={{ color: 'white' }}>09 February</p>
+                        <p style={{ color: 'white' }}>in <span style={{ color: '#5f6134' }}>News</span></p>
                     </div>
-                    <div>
+                    <div >
+                        <h3 style={{ color: '#b2a66f' }}>
+                            2020 COLLEGE BASKETBALL REGULAR SEASON BETTING PREDICTIONS</h3>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+                        <p style={{ color: 'white', paddingBottom: '13px', textAlign:'justify' }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. </p>
+
 
                     </div>
                 </Col>
@@ -455,7 +502,7 @@ export const BlogView = props => {
 
 BlogView.propTypes = {
     ImageNews: PropTypes.any
-    
+
 }
 
 
