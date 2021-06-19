@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Logo from '../icons/mainLogo.png'
-import mic from '../icons/mic.png'
+
+
 import vip from '../icons/VIPPerHead_logo.png'
 import '../components/Footer.css'
 
@@ -30,9 +29,9 @@ export const Footer = () => {
                     <div className="mega d-flex justify-content-center">
                         <div className="main">
                             <div className="social">
-                                <a href="#"><img src="https://img.icons8.com/nolan/37/facebook.png" style={{paddingTop:'3px'}}/></a>
-                                <a href="#" id="in">in</a>
-                                <a href="#"><img src="https://img.icons8.com/nolan/37/twitter.png" style={{paddingTop:'3px'}}/></a>
+                                <a href="fasdas"><img alt="" src="https://img.icons8.com/nolan/37/facebook.png" style={{paddingTop:'3px'}}/></a>
+                                <a href="sdsa" id="in">in</a>
+                                <a href="asd"><img alt="" src="https://img.icons8.com/nolan/37/twitter.png" style={{paddingTop:'3px'}}/></a>
                                 
                             </div>
 
@@ -40,9 +39,9 @@ export const Footer = () => {
                         </div>
                         <div className="main2">
                             <div className="lan">
-                                <a href="#" style={{color: '#aca375'}}>EN</a>
+                                <a href="asd" style={{color: '#aca375'}}>EN</a>
                                 <span style={{ color: 'white' }}> | </span>
-                                <a href="#">ES</a>
+                                <a href="asd">ES</a>
                             </div>
 
                         </div>
@@ -98,7 +97,7 @@ export const Footer = () => {
                 <div >
                     <ul style={{
                         listStyle: 'none',
-                        paddingLeft: '1px',
+                        
                         display: 'inline-flex',
                         gap: '30px',
                         paddingLeft:'50px'

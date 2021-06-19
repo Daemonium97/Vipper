@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col} from 'react-bootstrap'
 import '../views/Software_Features.css'
-import { Link } from 'react-router-dom'
+
 import call from '../features_images/callcenter.jpg'
 import horses from '../features_images/horses.jpg'
 import liveB from '../features_images/livebetting.jpg'

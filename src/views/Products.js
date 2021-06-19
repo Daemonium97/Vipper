@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import '../views/Products.css'
 import casino from '../products_images/casino.jpg'
 import epos from '../products_images/epos.jpg'

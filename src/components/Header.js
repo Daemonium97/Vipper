@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import {  Navbar, NavbarToggler, NavbarBrand} from 'reactstrap';
 import mic from '../icons/mic.png'
 import Logo from '../icons/mainLogo.png'
 import {Screen} from '../components/Modal'
@@ -36,18 +36,18 @@ export const Header = () => {
                     <div className="mega d-flex justify-content-center">
                         <div className="main">
                             <div className="social">
-                                <a href="#"><img src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
-                                <a href="#" id="in">in</a>
-                                <img src={mic} id="mic" />
+                                <a href="asd"><img alt="" src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
+                                <a href="asd" id="in">in</a>
+                                <img alt="" src={mic} id="mic" />
                             </div>
 
 
                         </div>
                         <div className="main2">
                             <div className="lan">
-                                <a href="#">EN</a>
+                                <a href="asd">EN</a>
                                 <span style={{ color: 'white' }}> | </span>
-                                <a href="#">ES</a>
+                                <a href="asd">ES</a>
                             </div>
 
                         </div>
@@ -79,9 +79,8 @@ export const Logoo = props => {
 }
 export const NavBar = props => {
 
-    const [collapsed, setCollapsed] = useState(true);
-
-    const toggleNavbar = () => setCollapsed(!collapsed);
+    
+    
 
     return (
         <div>
