@@ -17,7 +17,7 @@ export const Footer = () => {
                 <Col lg={true} id="colu1">
                     <div >
                         <div style={{ color: '#aca375' }}>1-888-992-3891</div>
-                        <div style={{ color: 'white' }}>Call Us for Free Us</div>
+                        <div style={{ color: 'white' }}>Call Us for Free US</div>
 
                     </div>
                     <div>
