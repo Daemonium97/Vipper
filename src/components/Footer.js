@@ -15,7 +15,7 @@ export const Footer = () => {
                     <img src={vip} id="perhead" alt="" />
                 </Col>
                 <Col lg={true} id="colu1">
-                    <div >
+                    <div className="num">
                         <div style={{ color: '#aca375' }}>1-888-992-3891</div>
                         <div style={{ color: 'white' }}>Call Us for Free US</div>
 
@@ -49,12 +49,12 @@ export const Footer = () => {
                 </Col>
             </Row>
             <Row style={{paddingBottom: '20px'}}>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} className="d-flex justify-content-center">
-                    PRODUCTS
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} >
+                    <div className="be">PRODUCTS </div>
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>BETTING SOFTWARE </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">BETTING SOFTWARE</div> </Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div>
+                    <div className="be">
                         BETTING FEATURES
                     </div>
                     <div >
@@ -75,9 +75,9 @@ export const Footer = () => {
                     </div>
 
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>PROMOS</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">PROMOS</div></Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div>BENEFITS</div>
+                    <div className="be">BENEFITS</div>
                     <div>
                         <ul style={{
                             listStyleType: 'none',
@@ -89,8 +89,8 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>CONTACT US</Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>QUICK CONTACT</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">CONTACT US</div></Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}> <div className="be">QUICK CONTACT</div></Col>
             </Row>
             <Row style={{ justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
                 
