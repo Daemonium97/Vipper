@@ -26,12 +26,16 @@ import {SoftwareFeatures} from './views/SoftwareFeatures'
 import {Products} from './views/Products'
 import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
+import {Home2} from './views/Home2'
 
 
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+      <Route exact path="/home2">
+        <Home2/>
+      </Route>
       <Route exact path="/">
         <Header />
         <NavBar />
