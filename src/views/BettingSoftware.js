@@ -92,29 +92,10 @@ export const BettingSoftware = () => {
                     <img src={SB} alt="" id="imaBS" />
                 </Col>
             </Row>
-            <Row style={{ display: 'flex' }} className="d-flex justify-content-center">
-                <div className="joinText">
-                    <h2>
-                        <div style={{ color: '#8f8753' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</div>
-                        <div style={
-                            { textAlign: 'center', color: '#aea46a' }}>Complete the form and access a free 3-week trial.</div>
-                    </h2>
-                    <button class="custom-btn btn-5"
-                        style={{
-                            marginLeft: '490px',
-                            color: 'black',
-                            background: '#716a43',
-                            marginTop: '30px',
-                            fontSize: '15px',
-                            fontWeight: 'bold'
-
-
-                        }}><span>JOIN TODAY</span></button>
-                </div>
-
-            </Row>
+            
         </Container>
     )
 }
+
 
 
