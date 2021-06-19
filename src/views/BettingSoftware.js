@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import '../views/Betting_Software.css'
+import '../views/BettingSoftware.css'
 import casino from '../betting_software/casino-gold.png'
 import horses from '../betting_software/horses-gold.png'
 import liveB from '../betting_software/livebetting-gold.png'
@@ -11,7 +11,7 @@ import sportB from '../betting_software/sportbetting-gold.png'
 import squares from '../betting_software/squares-gold.png'
 import SB from '../betting_software/sportsbetting.jpg'
 
-export const Betting_Software = () => {
+export const BettingSoftware = () => {
     return (
         <Container fluid style={{ background: 'black', paddingTop: '50px' }}>
             <Row className="d-flex justify-content-center">

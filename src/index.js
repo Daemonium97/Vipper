@@ -21,8 +21,8 @@ import { Home, Business, Premium, WhyVip, FullSet, Register, BlogHome, Payments,
 import {Footer} from './components/Footer'
 import {About} from './views/About'
 import {Benefits} from './views/Benefits'
-import {Betting_Software} from './views/Betting_Software'
-import {Software_Features} from './views/Software_Features' 
+import {BettingSoftware} from './views/BettingSoftware'
+import {SoftwareFeatures} from './views/SoftwareFeatures' 
 import {Products} from './views/Products'
 import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
@@ -64,7 +64,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={betting} TitleName="BETTING SOFTWARE"/>
-        <Betting_Software/>
+        <BettingSoftware/>
         <Footer/>
       </Route>
       <Route exact path="/Blog">
@@ -127,7 +127,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={software} TitleName="SOFTWARE FEATURES"/>
-        <Software_Features/>
+        <SoftwareFeatures/>
         <Footer/>
       </Route>
 
