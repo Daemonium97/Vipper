@@ -118,30 +118,108 @@ export const Home2 = () => {
 
                 </div>
             </Row>
-            <Row style={{ background: 'black', justifyContent: 'center', paddingTop: '80px' }}>
+            <Row style={{ background: 'black', justifyContent: 'center', padding: '80px 0px 80px 0px' }}>
+
                 <Col lg={6}>
                     <div className="divHome3" style={{ textAlign: 'center' }}>
-                        <h2 style={{ color: '#72672b',paddingTop:'50px' }}>THE BEST ALLY FOR YOUR</h2>
-                        <h2 style={{ color: '#72672b', paddingBottom:'40px' }}>BETTING BUSINESS</h2>
-                        <p style={{color:'white', padding:'0px 4px 30px 20px'}}>We have hired professional bookies to tailor VIP per head as a profitable and safe betting business.</p>
-                        <p style={{color:'white', padding:'0px 4px 30px 20px'}}>Vip Per Head tools and services allow bookies to create a business that operates 24 hours a day, seven days a week.</p>
-                        <p style={{color:'white', padding:'0px 4px 0px 20px'}}>The bookie will be able to delegate a large part of the operational task to the Vip Per Head team, which means that your business will continue to function even while you are asleep, and best of all, it will continue to generate income</p>
+                        <h2 style={{ color: '#72672b', paddingTop: '50px' }}>THE BEST ALLY FOR YOUR</h2>
+                        <h2 style={{ color: '#72672b', paddingBottom: '40px' }}>BETTING BUSINESS</h2>
+                        <p style={{ color: 'white', padding: '0px 4px 30px 20px' }}>We have hired professional bookies to tailor VIP per head as a profitable and safe betting business.</p>
+                        <p style={{ color: 'white', padding: '0px 4px 30px 20px' }}>Vip Per Head tools and services allow bookies to create a business that operates 24 hours a day, seven days a week.</p>
+                        <p style={{ color: 'white', padding: '0px 4px 0px 20px' }}>The bookie will be able to delegate a large part of the operational task to the Vip Per Head team, which means that your business will continue to function even while you are asleep, and best of all, it will continue to generate income</p>
 
                     </div>
 
                 </Col>
                 <Col lg={6}>
                     <div className="divHome3" style={{ textAlign: 'center' }}>
-                        <h2 style={{ color: '#72672b',paddingTop:'50px' }}>LOW</h2>
+                        <h2 style={{ color: '#72672b', paddingTop: '50px' }}>LOW</h2>
                         <h2 style={{ color: '#72672b', paddingBottom: '40px' }}>OPERATION COST</h2>
-                        <p style={{ color: 'white', paddingBottom:'60px' }}>Using VIP Per Head services is the best way to establish a fully functional betting business with large companies’ features at a low operating cost.</p>
-                        <p style={{ color: 'white', paddingBottom:'60px' }}>VIP Per Head charges a weekly fee per active player. Bookies will be able to use all the tools and services of VIP Per Head and will only have to pay for players who have placed a bet during the month.</p>
+                        <p style={{ color: 'white', paddingBottom: '60px' }}>Using VIP Per Head services is the best way to establish a fully functional betting business with large companies’ features at a low operating cost.</p>
+                        <p style={{ color: 'white', paddingBottom: '60px' }}>VIP Per Head charges a weekly fee per active player. Bookies will be able to use all the tools and services of VIP Per Head and will only have to pay for players who have placed a bet during the month.</p>
                         <p style={{ color: 'white' }}>VIP Per Head charges a weekly fee per active player. Bookies will be able to use all the tools and services of VIP Per Head and will only have to pay for players who have placed a bet during the month.</p>
-                       
+
 
 
                     </div>
                 </Col>
+            </Row>
+
+            <Row style={{ background: '#030318', padding: '70px 0px 70px 0px', justifyContent: 'center' }}>
+
+                <div className="divInter" style={{ textAlign: 'center' }}>
+                    <h4 style={{ color: 'white' }}>A FULL SET OF SERVICES</h4>
+
+                </div>
+
+
+            </Row >
+
+
+            <Row style={{ background: '#030318', justifyContent: 'space-around', padding: '0px 0px 70px 0px' }}>
+
+                <div className="divHome4" style={{ textAlign: 'center' }}>
+
+                    <ul style={{ listStyle: 'none' }}>
+                        <li style={{ color: 'white' }}>More than 20 years of experience.</li>
+                        <li style={{ color: 'white' }}>Trust and discretion.</li>
+                        <li style={{ color: 'white' }}>Professional sportsbook site</li>
+                        <li style={{ color: 'white' }}>Bilingual staff</li>
+                        <li style={{ color: 'white' }}>Reduce your cost</li>
+                        <li style={{ color: 'white' }}>The best product in the market</li>
+                        <li style={{ color: 'white' }}>Online and phone wagering</li>
+                        <li style={{ color: 'white' }}>24/7 service</li>
+                        <li style={{ color: 'white' }}>Injury reports</li>
+                    </ul>
+                </div>
+                <div className="divHome4">
+                    <ul style={{ listStyle: 'none' }}>
+                        <li style={{ color: 'white' }}>Line management</li>
+                        <li style={{ color: 'white' }}>Accurate Injury Reports</li>
+                        <li style={{ color: 'white' }}>Agent Lines Management</li>
+                        <li style={{ color: 'white' }}>Bilingual Staff Eng/spa</li>
+                        <li style={{ color: 'white' }}>Customize Player Profile</li>
+                        <li style={{ color: 'white' }}>Customize Your Website</li>
+                        <li style={{ color: 'white' }}>Highly Secure Website</li>
+                        <li style={{ color: 'white' }}>Lines Monitoring 24/7</li>
+
+                    </ul>
+                </div>
+                <div className="divHome4">
+                    <ul style={{ listStyle: 'none' }}>
+                        <li style={{ color: 'white' }}>Live Casino</li>
+                        <li style={{ color: 'white' }}>Mobile Interface</li>
+                        <li style={{ color: 'white' }}>Online Casino</li>
+                        <li style={{ color: 'white' }}>Online Reports</li>
+                        <li style={{ color: 'white' }}>Pay Per Customer Activity</li>
+                        <li style={{ color: 'white' }}>Privacy And Security</li>
+                        <li style={{ color: 'white' }}>Racebook</li>
+                        <li style={{ color: 'white' }}>Sharpest Lines in Industry</li>
+                        <li style={{ color: 'white' }}>Real-Time Online Access To Accounts</li>
+
+                    </ul>
+
+                </div>
+
+            </Row>
+
+            <Row style={{ background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding: '50px 0px 40px 0px' }}>
+                <Col lg={6}>
+                    <div className="divHome5" style={{textAlign:'center'}}>
+                        <h1 style={{ color: '#594c1f', padding:'30px 0px 30px 0px' }}>REGISTRATION NOW</h1>
+                        <p style={{color:'white'}}>JOIN THE SELECT GROUP OF BOOKIES</p> 
+                        <p style={{color:'white'}}>THAT USE VIP PER HEAD TODAY.</p> 
+                        <p style={{color:'white'}}>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p> 
+                    </div>
+
+                </Col>
+                <Col lg={3}>
+                    <div style={{textAlign:'center', alignItems:'center'}}>
+                        <span id="uno">1</span>
+                    </div>
+                </Col>
+                <Col lg={3}></Col>
+
             </Row>
 
 
