@@ -10,32 +10,50 @@ import { Screen } from '../components/Modal'
 
 export const Header = () => {
     return (
-        <Container fluid >
-            <Row style={{ background: 'linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(74,5,74,1) 53%, rgba(0,0,0,1) 99%)' }}>
-                <div className="numbers1">
-                    <p style={{ color: '#997c2c' }}>1-888-992-3891</p>
-                    <p style={{ color: 'white' }}>Call Us for Free US</p>
-                     <p style={{ color: '#997c2c' }}>01-800-099-0754</p>
-                    <p style={{ color: 'white' }}>Call Us for Free Mexico</p>
-                </div>
-                
-                   
-                
-                <div>
-                    <Link to="/">
-                        <img src={Logo} alt="" id="image" />
-                    </Link>
-                </div>
-                <div>
-                    <a href="asd"><img alt="" src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
-                    <a href="asd" id="in">in</a>
-                    <img alt="" src={mic} id="mic" />
-                </div>
-                <div >
+        <Container fluid className="all">
+            <Row>
+                <Col lg={true} className="numbers">
+
+                    <div >
+                        <div id="call">1-888-992-3891</div>
+                        <div>Call Us for Free Us</div>
+                    </div>
+                    <div>
+                        <div id="call">01-800-099-0754</div>
+                        <div>Call Us for Free Mexico</div>
+                    </div>
+                </Col>
+                <Col lg={true}>
+                    <div className="d-flex justify-content-center">
+                        <Link to="/">
+                           <img src={Logo} alt="" id="image" /> 
+                        </Link>
+                        
+                    </div>
+
+                </Col>
+                <Col lg={true} >
+                    <div className="mega d-flex justify-content-center">
+                        <div className="main">
+                            <div className="social">
+                                <a href="asd"><img alt="" src="http://www.dimecoti.com/_binalia/framework/v2/modules/WebBuilder/dimeco-web/template/images/footer.social.facebook.png" id="face" /></a>
+                                <a href="asd" id="in">in</a>
+                                <img alt="" src={mic} id="mic" />
+                            </div>
+
+
+                        </div>
+                        <div className="main2">
+                            <div className="lan">
                                 <a href="asd">EN</a>
                                 <span style={{ color: 'white' }}> | </span>
                                 <a href="asd">ES</a>
                             </div>
+
+                        </div>
+                    </div>
+
+                </Col>
             </Row>
         </Container>
 
