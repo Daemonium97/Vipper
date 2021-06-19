@@ -1,19 +1,5 @@
-.text1{
-    margin-left: 300px;
-    width: 30vw;
-    height: 25vw;
-    text-align: center;
-    padding-top: 60px;
-    font-size: 18px;
-}
-.text2{
-    margin-right: 300px;
-    width: 30vw;
-    height: 25vw;
-    text-align: center;
-    padding-top: 60px;
-    font-size: 18px;
-}
+
+
 .text3{
     padding-top: 140px;
     font-size: 18px;
@@ -49,17 +35,39 @@
     font-size: 50px;
 
 }
+@media only screen and (max-width: 600px){
+    #sub1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
 #sub2{
     font-size: 80px;
     font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    #sub2{
+        font-size: 50px;
+        font-weight: bold;
+    }
 }
 h6{
     padding-left: 170px;
 
 }
+@media only screen and (max-width: 600px){
+    h6{
+        padding-left: 1px;
+    }
+}
 .textoA{
     padding-left: 170px;
     font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    .textoA{
+        padding-left: 1px;
+    }
 }
 #pS2{
     padding-bottom: 50px;

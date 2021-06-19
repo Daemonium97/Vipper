@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../components/Header.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import {  Navbar, NavbarToggler, NavbarBrand} from 'reactstrap';
+import { Navbar, NavbarToggler, NavbarBrand } from 'reactstrap';
 import mic from '../icons/mic.png'
 import Logo from '../icons/mainLogo.png'
-import {Screen} from '../components/Modal'
+import { Screen } from '../components/Modal'
 
 export const Header = () => {
     return (
@@ -64,12 +64,12 @@ export const Logoo = props => {
     return (
         <Container fluid>
             <Row>
-               
-                   <span id="title">{props.TitleName}</span>
 
-                <img src={props.ImageLogo} alt="" id="logo" /> 
-                
-                
+                <span id="title">{props.TitleName}</span>
+
+                <img src={props.ImageLogo} alt="" id="logo" />
+
+
             </Row>
 
 
@@ -79,14 +79,14 @@ export const Logoo = props => {
 }
 export const NavBar = props => {
 
-    
-    
+
+
 
     return (
         <div>
             <Navbar color="dark" dark>
                 <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
-                <Screen/>
+                <Screen />
             </Navbar>
         </div>
     );
@@ -102,8 +102,8 @@ Logoo.propTypes = {
 NavbarToggler.propTypes = {
     type: PropTypes.string,
     tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-    
-  }
+
+}
 
 
 
