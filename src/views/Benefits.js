@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import bene1 from '../benefits_images/Bennefits1.jpg'
 import bene2 from '../benefits_images/Bennefits2.jpg'
 import bene3 from '../benefits_images/Bennefits3.jpg'
@@ -10,11 +11,14 @@ export const Benefits = () => {
         <Container fluid style={{ background: 'black', padding: '40px' }}>
             <div className="titles">
                 <h2>VIP PER HEAD</h2>
-                <h3>REFERRAL PROGRAM</h3>
+                <Link to="/Benefits_Referral" style={{textDecoration:'none'}}>
+                   <h3>REFERRAL PROGRAM</h3> 
+                </Link>
+                
             </div>
 
 
-            <Row style={{ paddingBottom: '20px' }} >
+            <Row style={{ paddingBottom: '20px', paddingTop:'60px' }} >
 
                 <Col lg={true} >
                     <h2>
@@ -32,26 +36,18 @@ export const Benefits = () => {
                 </Col>
             </Row>
             <Row >
-                <div>
-                    <Card className="bg-dark text-white" style={{ padding: '1px' }}>
-                        <Card.Img src={bene2} alt="" id="imageB2" />
-                        <Card.ImgOverlay>
-                            <div style={{ background: '#23001a' }} className="textA">
-                                <p>Such as: free week, discounts of up to
-                                </p>
-                                <p style={{color:'#8e834c'}}>50% off in a week,</p>
-                                <p>best prices and percentage</p>
-                                <p>discounts on our services, and more!
-                                </p>
+                <Col lg={6}>
+                    <img src={bene2} alt="" id="imageB2" />
+                </Col>
+                <Col lg={6}>
+                    <Jumbotron style={{ background: '#190013', textAlign: 'center' }}>
+                        <p style={{ color: 'white' }}>Such as: free week, discounts of up to</p>
+                        <p style={{ color: '#8e834d' }}>50% off in a week,</p>
+                        <p style={{ color: 'white' }}>best prices and percentage</p>
+                        <p style={{ color: 'white' }}> discounts on our services, and more!</p>
 
-                            </div>
-
-                        </Card.ImgOverlay>
-                    </Card>
-                </div>
-
-
-
+                    </Jumbotron>
+                </Col>
             </Row>
             <Row>
                 <Col lg={true}>
@@ -65,9 +61,17 @@ export const Benefits = () => {
                     </div>
                 </Col>
                 <Col lg={true}>
-                    <img src={bene3} alt="" id="imageB1" />
+                    <img src={bene3} alt="" id="imageB1" style={{paddingBottom:'50px'}}/>
                 </Col>
             </Row>
+        </Container>
+    )
+}
+
+export const BenefitsR = () => {
+    return(
+        <Container fluid>
+
         </Container>
     )
 }

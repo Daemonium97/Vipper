@@ -20,7 +20,7 @@ import { Header, Logoo, NavBar } from './components/Header'
 import { Present } from './views/Home'
 import {Footer} from './components/Footer'
 import {About} from './views/About'
-import {Benefits} from './views/Benefits'
+import {Benefits, BenefitsR} from './views/Benefits'
 import {BettingSoftware} from './views/BettingSoftware'
 import {SoftwareFeatures} from './views/SoftwareFeatures' 
 import {Products} from './views/Products'
@@ -54,6 +54,13 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={benefits} TitleName="Benefits"/>
         <Benefits/>
+        <Footer/>
+      </Route>
+      <Route exact path="/Benefits_Referral">
+        <Header/>
+        <NavBar/>
+        <Logoo ImageLogo={benefits} TitleName="Benefits"/>
+        <BenefitsR/>
         <Footer/>
       </Route>
       <Route exact path="/Betting_Software">
