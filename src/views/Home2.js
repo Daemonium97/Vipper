@@ -202,23 +202,39 @@ export const Home2 = () => {
                 </div>
 
             </Row>
+            <Row style={{background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding:'60px 0px 0px 0px', justifyContent:'flex-end'}}>
+                <div className="ready">
+                    <h3 style={{color:'#6b6024'}}>YOU ARE READY!</h3>
+                    <h3 style={{color:'#aca379'}}>START RUNNING YOUR WINNING BRAND.</h3>
+                </div>
 
-            <Row style={{ background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding: '50px 0px 40px 0px' }}>
+            </Row>
+
+            <Row style={{ background: 'linear-gradient(to right, #000000, #15000a, #22081a, #250722, #1e0225)', padding: '20px 0px 40px 0px' }}>
                 <Col lg={6}>
-                    <div className="divHome5" style={{textAlign:'center'}}>
-                        <h1 style={{ color: '#594c1f', padding:'30px 0px 30px 0px' }}>REGISTRATION NOW</h1>
-                        <p style={{color:'white'}}>JOIN THE SELECT GROUP OF BOOKIES</p> 
-                        <p style={{color:'white'}}>THAT USE VIP PER HEAD TODAY.</p> 
-                        <p style={{color:'white'}}>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p> 
+                    <div className="divHome5" style={{ textAlign: 'center' }}>
+                        <h1 style={{ color: '#594c1f', padding: '30px 0px 30px 0px' }}>REGISTRATION NOW</h1>
+                        <p style={{ color: 'white' }}>JOIN THE SELECT GROUP OF BOOKIES</p>
+                        <p style={{ color: 'white' }}>THAT USE VIP PER HEAD TODAY.</p>
+                        <p style={{ color: 'white' }}>COMPLETE THE FORM AND ACCESS A FREE 3-WEEK TRIAL.</p>
                     </div>
 
                 </Col>
                 <Col lg={3}>
-                    <div style={{textAlign:'center', alignItems:'center'}}>
-                        <span id="uno">1</span>
+                    <div style={{ textAlign: 'center', alignItems: 'center' }}>
+                        <span id="unoo">1</span>
+                        <p style={{ color: '#6b6024', fontSize: '20px' }}>F I L L T H E F O R M</p>
                     </div>
                 </Col>
-                <Col lg={3}></Col>
+                <Col lg={3}>
+                    <div style={{ textAlign: 'center', alignItems: 'center' }}>
+                        <span id="doss">2</span>
+                        <p style={{ color: '#6b6024', fontSize: '20px' }}>C O N T A C T</p>
+                        <p style={{ color: '#998668' }}>One of our representatives will contact
+
+you to setup you account.</p>
+                    </div>
+                </Col>
 
             </Row>
 

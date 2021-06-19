@@ -96,8 +96,24 @@ font-size: 23px;
      
 }
 }
-#uno{
+#unoo, #doss{
     font-family: 'Montserrat', sans-serif;
     font-size: 200px;
     color: rgb(107, 96, 36);
 }
+
+.ready h3{
+    font-size: 40px;
+    padding-right: 70px;
+    
+}
+@media only screen and (max-width: 600px){
+    .ready h3 {
+         font-size: 40px;
+         text-align: center;
+         padding-bottom: 20px;
+         padding-right: 0px;
+         
+    }
+}
+
