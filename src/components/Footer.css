@@ -21,3 +21,20 @@
     }
 }
 
+.fu{
+
+}
+.fu ul{
+    width: '450px';
+    height: '120px';
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+@media only screen and (max-width: 600px){
+    ul{
+     padding: 0px;
+       
+    }
+}

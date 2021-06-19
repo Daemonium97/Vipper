@@ -138,4 +138,13 @@ font-size: 23px;
         
     }
 }
+.arrowDown{
+    background: black;
+   height: 0;
+   width: 0 !important;
+   border-style: solid;
+   border-width: 20px 50px 0 50px;
+   border-color: #d6cd9c #000 !important;
+   margin: 0 auto !important;
+ }
 

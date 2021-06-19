@@ -358,7 +358,7 @@ you to setup you account.</p>
 
 export const Payments2 = () => {
     return (
-        <Container fluid className="all8">
+        <Container fluid style={{background:'black'}}>
             <Row className="d-flex justify-content-center" style={{background:'#d6cd9c'}}>
                 
                     <div class="paymentsText">
