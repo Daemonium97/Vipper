@@ -34,34 +34,34 @@ export const SoftwareFeatures = () => {
 
                 <Col lg={true}>
                     <div className="fut1">
-                        <img src={book} alt="" id="ImageSports" />
+                        <img src={book} alt="" id="ImageBlo" />
                     </div>
                 </Col>
                 <Col lg={true} >
                     <div className="fut1">
-                        <img src={liveC} alt="" id="ImageSports" />
+                        <img src={liveC} alt="" id="ImageBlo" />
                     </div>
                 </Col>
                 <Col lg={true}>
                     <div className="fut1">
-                        <img src={online} alt="" id="ImageSports" />
+                        <img src={online} alt="" id="ImageBlo" />
                     </div>
                 </Col>
             </Row>
             <Row className="mt-5">
                 <Col lg={true}>
                     <div className="fut1">
-                        <img src={liveB} alt="" id="ImageSports" />
+                        <img src={liveB} alt="" id="ImageBlo" />
                     </div>
                 </Col>
                 <Col lg={true}>
                     <div className="fut1">
-                        <img src={horses} alt="" id="ImageSports" />
+                        <img src={horses} alt="" id="ImageBlo" />
                     </div>
                 </Col>
                 <Col lg={true}>
                     <div className="fut1">
-                        <img src={call} alt="" id="ImageSports" />
+                        <img src={call} alt="" id="ImageBlo" />
                     </div>
                 </Col>
             </Row>
