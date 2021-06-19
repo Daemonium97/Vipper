@@ -21,3 +21,37 @@
     }
 }
 
+
+.fu ul{
+    width: '450px';
+    height: '120px';
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+@media only screen and (max-width: 600px){
+    .fu ul{
+     padding: 0px;
+     width: fit-content;
+       
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .main{
+     padding: 0px 0px 30px 0px;
+     
+       
+    }
+}
+@media only screen and (max-width: 600px){
+    .num{
+        padding: 0px 0px 20px 0px;
+      
+    }
+}
+.be{
+    padding-bottom: 13px;
+}

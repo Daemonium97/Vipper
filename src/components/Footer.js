@@ -6,7 +6,7 @@ import vip from '../icons/VIPPerHead_logo.png'
 import '../components/Footer.css'
 
 
-export const Footer = () => {
+export const Footer = () => {  
     return (
         <Container fluid style={{ background: '#1b0015' }}>
             <Row style={{background: 'linear-gradient(90deg, rgba(108,93,55,1) 21%, rgba(199,182,136,1) 41%, rgba(250,229,175,1) 61%, rgba(68,50,18,1) 80%)', paddingTop:'10px'}}></Row>
@@ -15,7 +15,7 @@ export const Footer = () => {
                     <img src={vip} id="perhead" alt="" />
                 </Col>
                 <Col lg={true} id="colu1">
-                    <div >
+                    <div className="num">
                         <div style={{ color: '#aca375' }}>1-888-992-3891</div>
                         <div style={{ color: 'white' }}>Call Us for Free US</div>
 
@@ -49,12 +49,12 @@ export const Footer = () => {
                 </Col>
             </Row>
             <Row style={{paddingBottom: '20px'}}>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} className="d-flex justify-content-center">
-                    PRODUCTS
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} >
+                    <div className="be">PRODUCTS </div>
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>BETTING SOFTWARE </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">BETTING SOFTWARE</div> </Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div>
+                    <div className="be">
                         BETTING FEATURES
                     </div>
                     <div >
@@ -75,9 +75,9 @@ export const Footer = () => {
                     </div>
 
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>PROMOS</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">PROMOS</div></Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div>BENEFITS</div>
+                    <div className="be">BENEFITS</div>
                     <div>
                         <ul style={{
                             listStyleType: 'none',
@@ -89,28 +89,22 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>CONTACT US</Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>QUICK CONTACT</Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">CONTACT US</div></Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}> <div className="be">QUICK CONTACT</div></Col>
             </Row>
-            <Row style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
+            <Row style={{ justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
                 
-                <div >
-                    <ul style={{
-                        listStyle: 'none',
-                        
-                        display: 'inline-flex',
-                        gap: '30px',
-                        paddingLeft:'50px'
-
-                    }}>
+                <div className="fu">
+                    <ul>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>GLOSAARY</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>FAQ</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SITE MAP</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SIGN UP</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ICONO</li>
                     </ul>
+                    <span style={{ color: '#8d7e4d' }}>Copyright 2010 - 2019 VIP Per Head</span>
                 </div>
-                <div style={{ color: '#8d7e4d', paddingRight: '50px' }}>Copyright 2010 - 2019 VIP Per Head</div>
+                
 
 
             </Row>
