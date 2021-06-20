@@ -6,6 +6,7 @@ import bene2 from '../benefits_images/Bennefits2.jpg'
 import bene3 from '../benefits_images/Bennefits3.jpg'
 import '../views/Benefits.css'
 
+
 export const Benefits = () => {
     return (
         <Container fluid style={{ background: 'black', padding: '20px' }}>

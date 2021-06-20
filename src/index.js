@@ -27,6 +27,7 @@ import {Products} from './views/Products'
 import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
 import {Home2, Join2, Payments2} from './views/Home2'
+import {Form} from './components/Form'
 
 
 
@@ -78,6 +79,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <Blog/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_money">
@@ -85,6 +87,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={money}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_web">
@@ -92,6 +95,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={web}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_fut">
@@ -99,6 +103,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={mf}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_phone">
@@ -106,6 +111,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={phone}/>
+        <Relleno/>
         <Footer/>
       </Route>
 
@@ -113,6 +119,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={contact} TitleName="CONTACT"/>
+        <Form/>
         <Footer/>
       </Route>
       <Route exact path="/Products">
