@@ -9,7 +9,7 @@ router.post('/send-email', async (req, res) =>{
             <h1>User Information</h1>
             <ul>
                 <li>Username: ${name}</li>
-                <li>User Email: ${email}</li>
+                <li>User Email: ${email}</li> 
                 <li>Phone: ${phone}</li>
             
             </ul>
@@ -41,5 +41,5 @@ router.post('/send-email', async (req, res) =>{
 });
 
 
-
+console.log("hol totoro")
 module.exports = router;
