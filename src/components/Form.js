@@ -2,6 +2,8 @@ import React from 'react'
 import {Container, Row} from 'react-bootstrap'
 
 export const Form = () => {
+    
+    
     return (
         <Container fluid>
             <Row style={{ background: 'black', justifyContent: 'center' }}>
@@ -23,6 +25,9 @@ export const Form = () => {
                                         <div className="form-group">
                                             <textarea  name="message" rows="2" className="form-control" placeholder="Message"/>
                                         </div>
+                                        <button className="btn btn-primary btn-block">
+                                            Send
+                                        </button>
 
                                     </form>
 

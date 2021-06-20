@@ -6,5 +6,6 @@ router.post('/send-email', (req, res) =>{
     res.send('received');
 })
 
+console.log("toy solito")
 
 module.exports = router;
