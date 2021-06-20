@@ -81,7 +81,7 @@ export const SoftwareFeatures = () => {
                 <Col lg={true} className="d-flex justify-content-center">
                     <Jumbotron style={{ background: '#190013' }}>
 
-                        <ul style={{ listStyle: 'none', paddingLeft:'1px'  }}>
+                        <ul style={{ listStyle: 'none', paddingLeft:'1px', textAlign:'center'  }}>
                             <li style={{ color: '#988c61' }}>Customized Sportsbook website </li>
                             <li style={{ color: '#988c61' }}>Online/Phone Services</li>
                             <li style={{ color: '#988c61' }}>Instant Activity Report</li>

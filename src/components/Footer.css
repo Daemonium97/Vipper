@@ -3,7 +3,7 @@
     display: flex;
     justify-Content: end;
     gap: 70px;
-    padding-Top: 50px;
+    padding-Top: 50px; 
 }
 @media only screen and (max-width: 600px){
     #colu1{
@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 600px){
     .fu ul{
-     padding: 0px;
+    display: contents;
      width: fit-content;
        
     }

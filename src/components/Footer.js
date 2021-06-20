@@ -102,9 +102,9 @@ export const Footer = () => {
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SIGN UP</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ICONO</li>
                     </ul>
-                    <span style={{ color: '#8d7e4d' }}>Copyright 2010 - 2019 VIP Per Head</span>
+                    
                 </div>
-                
+                <span style={{ color: '#8d7e4d' }}>Copyright 2010 - 2019 VIP Per Head</span>
 
 
             </Row>
