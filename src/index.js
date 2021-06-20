@@ -78,6 +78,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <Blog/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_money">
@@ -85,6 +86,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={money}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_web">
@@ -92,6 +94,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={web}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_fut">
@@ -99,6 +102,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={mf}/>
+        <Relleno/>
         <Footer/>
       </Route>
       <Route exact path="/Blog_phone">
@@ -106,6 +110,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={blog} TitleName="BLOG"/>
         <BlogView ImageNews={phone}/>
+        <Relleno/>
         <Footer/>
       </Route>
 
