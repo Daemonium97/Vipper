@@ -70,7 +70,7 @@ export const Benefits = () => {
 
 export const BenefitsR = () => {
     return (
-        <Container fluid style={{ background: 'black' }}>
+        <Container fluid style={{ background: 'black',paddingBottom:'10px' }}>
             <div className="titles">
                 <Link to="/Benefits" style={{ textDecoration: 'none' }}>
                     <h2 style={{ color: '#645e44' }}>VIP PER HEAD</h2>
@@ -93,19 +93,55 @@ export const BenefitsR = () => {
                         with a fantastic price
                         to your balance.
                         The reward depends on the referral you are sending.</p>
-                        <p style={{color:'white'}}>If the bookie has 0- 25 bettors, you will earn 1 week’s
+                        <p style={{ color: 'white' }}>If the bookie has 0- 25 bettors, you will earn 1 week’s
                         worth of the SERVICES BOOKIE CONTRACTED.</p>
-                        <p style={{color:'white'}}>If the bookie has 26-50 bettors, you will earn 2 WEEKS
+                        <p style={{ color: 'white' }}>If the bookie has 26-50 bettors, you will earn 2 WEEKS
                             WORTH OF THE SERVICE THE BOOKIE CONTRACTED.</p>
-                        <p style={{color:'white'}}>If the bookie has 51 or more bettors, you will earn 3
+                        <p style={{ color: 'white' }}>If the bookie has 51 or more bettors, you will earn 3
                         WEEKS WORTH OF THE SERVICES THE BOOKIE
                         CONTRACTED.</p>
                     </div>
 
                 </Col>
-                <Col lg={6}> </Col>
+                <Col lg={6}>
+                    <img src="http://vipperhead.ag/images/benefits5.png" alt="" id="imageB1" style={{paddingBottom:'40px'}}/>
+
+                    <div>
+                        <h4 style={{color:'white', paddingBottom:'30px'}}>RULES</h4>
+                        <p style={{ color: 'white', paddingBottom:'60px' }}>Both accounts must be active.
+                        The referring account must have an active account.
+                        The account must have a positive balance.
+                        Depending on how you will be promoting our services, you can request a
+                        skin, code, textual link, or banner, depending on your method of
+                        promotion.
+                        All fees regarding payment and transactions will be deducted from the
+                        overall.
+                        If any of the accounts are behind on payments, all referral payments will
+                        be placed on hold until the defaulted balance is paid.
+                        VIPPERHEAD is not responsible nor liable for referrals made with the wrong
+                        information or format.
+                        Payments will be made monthly for the balance regarding the previous
+                        month.
+                        All referrals and eligibility are up to management’s discretion.
+                        Any attempt to tamper with the promotion will result in disqualification
+                        The referral will not apply if the accounts share the same address/
+                        household/internet connection/computer
+                        Only new customers may be referred.</p>
+                    </div>
+
+
+
+
+                </Col>
             </Row>
 
+        </Container>
+    )
+}
+export const Relleno = () => {
+    return(
+        <Container fluid style={{background:'black', padding:'40px 0px 40px 0px'}}>
+            
         </Container>
     )
 }
