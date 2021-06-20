@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import bene1 from '../benefits_images/Bennefits1.jpg'
 import bene2 from '../benefits_images/Bennefits2.jpg'
 import bene3 from '../benefits_images/Bennefits3.jpg'
@@ -10,15 +10,15 @@ export const Benefits = () => {
     return (
         <Container fluid style={{ background: 'black', padding: '40px' }}>
             <div className="titles">
-                <h2>VIP PER HEAD</h2>
-                <Link to="/Benefits_Referral" style={{textDecoration:'none'}}>
-                   <h3>REFERRAL PROGRAM</h3> 
+                <h2 style={{ color: '#8e834c' }}>VIP PER HEAD</h2>
+                <Link to="/Benefits_Referral" style={{ textDecoration: 'none' }}>
+                    <h3 style={{ color: '#645e44' }}>REFERRAL PROGRAM</h3>
                 </Link>
-                
+
             </div>
 
 
-            <Row style={{ paddingBottom: '20px', paddingTop:'60px' }} >
+            <Row style={{ paddingBottom: '20px', paddingTop: '60px' }} >
 
                 <Col lg={true} >
                     <h2>
@@ -61,7 +61,7 @@ export const Benefits = () => {
                     </div>
                 </Col>
                 <Col lg={true}>
-                    <img src={bene3} alt="" id="imageB1" style={{paddingBottom:'50px'}}/>
+                    <img src={bene3} alt="" id="imageB1" style={{ paddingBottom: '50px' }} />
                 </Col>
             </Row>
         </Container>
@@ -69,8 +69,42 @@ export const Benefits = () => {
 }
 
 export const BenefitsR = () => {
-    return(
-        <Container fluid>
+    return (
+        <Container fluid style={{ background: 'black' }}>
+            <div className="titles">
+                <Link to="/Benefits" style={{ textDecoration: 'none' }}>
+                    <h2 style={{ color: '#645e44' }}>VIP PER HEAD</h2>
+                </Link>
+                <h3 style={{ color: '#8e834c' }}>REFERRAL PROGRAM</h3>
+
+            </div>
+            <Row>
+                <Col lg={6}>
+                    <h2>
+                        <div style={{ color: 'white' }} id="subtitle1">REFERRAL</div>
+                        <div style={{ color: '#8e834d' }} id="subtitle2">PROGRAM</div>
+                    </h2>
+                    <div>
+                        <p style={{ color: 'white' }}>Many of our clients would love to have extra income
+                        or earn commissions by referring friends to excellent
+                        services. That is why we have decided to create our
+                        referral program</p>
+                        <p style={{ color: 'white' }}>Refer your friends to VIP per head. We will reward you
+                        with a fantastic price
+                        to your balance.
+                        The reward depends on the referral you are sending.</p>
+                        <p style={{color:'white'}}>If the bookie has 0- 25 bettors, you will earn 1 week’s
+                        worth of the SERVICES BOOKIE CONTRACTED.</p>
+                        <p style={{color:'white'}}>If the bookie has 26-50 bettors, you will earn 2 WEEKS
+                            WORTH OF THE SERVICE THE BOOKIE CONTRACTED.</p>
+                        <p style={{color:'white'}}>If the bookie has 51 or more bettors, you will earn 3
+                        WEEKS WORTH OF THE SERVICES THE BOOKIE
+                        CONTRACTED.</p>
+                    </div>
+
+                </Col>
+                <Col lg={6}> </Col>
+            </Row>
 
         </Container>
     )

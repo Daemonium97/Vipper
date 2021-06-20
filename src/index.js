@@ -61,6 +61,7 @@ ReactDOM.render(
         <NavBar/>
         <Logoo ImageLogo={benefits} TitleName="Benefits"/>
         <BenefitsR/>
+        <Payments2/>
         <Footer/>
       </Route>
       <Route exact path="/Betting_Software">
