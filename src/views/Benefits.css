@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding-top: 33px;
 }
 
 #subtitle1{
