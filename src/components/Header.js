@@ -86,6 +86,7 @@ export const NavBar = props => {
         <div>
             <Navbar color="dark" dark>
                 <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
+                <span style={{color:'white', marginRight:'10px', fontWeight:'bold'}}>Menu</span>
                 <Screen />
             </Navbar>
         </div>

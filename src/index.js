@@ -28,6 +28,7 @@ import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
 import {Home2, Join2, Payments2} from './views/Home2'
 import {Form} from './components/Form'
+import {ScrollButton} from './components/ScrollTop'
 
 
 
@@ -43,6 +44,7 @@ ReactDOM.render(
         <Payments2 />
         <Join2 />
         <Footer />
+        <ScrollButton/>
       </Route>
       <Route exact path="/About">
         <Header />
@@ -50,6 +52,7 @@ ReactDOM.render(
         <Logoo ImageLogo={about} TitleName="About Us"/>
         <About/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Benefits">
         <Header/>
@@ -57,6 +60,7 @@ ReactDOM.render(
         <Logoo ImageLogo={benefits} TitleName="Benefits"/>
         <Benefits/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Benefits_Referral">
         <Header/>
@@ -66,6 +70,7 @@ ReactDOM.render(
         <Payments2/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Betting_Software">
         <Header/>
@@ -74,6 +79,7 @@ ReactDOM.render(
         <BettingSoftware/>
         <Join2/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Blog">
         <Header/>
@@ -82,6 +88,7 @@ ReactDOM.render(
         <Blog/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Blog_money">
         <Header/>
@@ -90,6 +97,7 @@ ReactDOM.render(
         <BlogView ImageNews={money}/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Blog_web">
         <Header/>
@@ -98,6 +106,7 @@ ReactDOM.render(
         <BlogView ImageNews={web}/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Blog_fut">
         <Header/>
@@ -106,6 +115,7 @@ ReactDOM.render(
         <BlogView ImageNews={mf}/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Blog_phone">
         <Header/>
@@ -114,6 +124,7 @@ ReactDOM.render(
         <BlogView ImageNews={phone}/>
         <Relleno/>
         <Footer/>
+        <ScrollButton/>
       </Route>
 
       <Route exact path="/Contact">
@@ -122,6 +133,7 @@ ReactDOM.render(
         <Logoo ImageLogo={contact} TitleName="CONTACT"/>
         <Form/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Products">
         <Header/>
@@ -129,6 +141,7 @@ ReactDOM.render(
         <Logoo ImageLogo={products} TitleName="PRODUCTS"/>
         <Products/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Promo">
         <Header/>
@@ -136,6 +149,7 @@ ReactDOM.render(
         <Logoo ImageLogo={promo} TitleName="Promos"/>
         <Promos/>
         <Footer/>
+        <ScrollButton/>
       </Route>
       <Route exact path="/Software_Features">
         <Header/>
@@ -144,6 +158,7 @@ ReactDOM.render(
         <SoftwareFeatures/>
         <Join2/>
         <Footer/>
+        <ScrollButton/>
       </Route>
 
     </Switch>
