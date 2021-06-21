@@ -27,7 +27,19 @@ app.post("/send_email", cors(), async (req, res) => {
             from: process.env.MAIL_FROM,
             to: "xayoye9037@gocasin.com",
             subject: "test email",
-            html: 
+            html: `<div className="email" style="
+            border: 1px solid black;
+            padding: 20px;
+            font-family: sans-serif;
+            line-height: 2;
+            font-size: 20px; 
+            ">
+            <h2>Here is your email!</h2>
+            <p>${text}</p>
+        
+            <p>All the best, Darwin</p>
+             </div>
+        `
         })
 
 
@@ -38,6 +50,6 @@ app.post("/send_email", cors(), async (req, res) => {
 
 
 
-app.listen((process.env.PORT, () =>{
+app.listen((process.env.PORT || 3000, () =>{
     console.log('Listening')
 }))
