@@ -1,15 +1,16 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 import vip from '../icons/VIPPerHead_logo.png'
 import '../components/Footer.css'
 
 
-export const Footer = () => {  
+export const Footer = () => {
     return (
         <Container fluid style={{ background: '#1b0015' }}>
-            <Row style={{background: 'linear-gradient(90deg, rgba(108,93,55,1) 21%, rgba(199,182,136,1) 41%, rgba(250,229,175,1) 61%, rgba(68,50,18,1) 80%)', paddingTop:'10px'}}></Row>
+            <Row style={{ background: 'linear-gradient(90deg, rgba(108,93,55,1) 21%, rgba(199,182,136,1) 41%, rgba(250,229,175,1) 61%, rgba(68,50,18,1) 80%)', paddingTop: '10px' }}></Row>
             <Row>
                 <Col lg={true} style={{}} className="d-flex justify-content-start">
                     <img src={vip} id="perhead" alt="" />
@@ -29,17 +30,17 @@ export const Footer = () => {
                     <div className="mega d-flex justify-content-center">
                         <div className="main">
                             <div className="social">
-                                <a href="fasdas"><img alt="" src="https://img.icons8.com/nolan/37/facebook.png" style={{paddingTop:'3px'}}/></a>
+                                <a href="fasdas"><img alt="" src="https://img.icons8.com/nolan/37/facebook.png" style={{ paddingTop: '3px' }} /></a>
                                 <a href="sdsa" id="in">in</a>
-                                <a href="asd"><img alt="" src="https://img.icons8.com/nolan/37/twitter.png" style={{paddingTop:'3px'}}/></a>
-                                
+                                <a href="asd"><img alt="" src="https://img.icons8.com/nolan/37/twitter.png" style={{ paddingTop: '3px' }} /></a>
+
                             </div>
 
 
                         </div>
                         <div className="main2">
                             <div className="lan">
-                                <a href="asd" style={{color: '#aca375'}}>EN</a>
+                                <a href="asd" style={{ color: '#aca375' }}>EN</a>
                                 <span style={{ color: 'white' }}> | </span>
                                 <a href="asd">ES</a>
                             </div>
@@ -48,15 +49,25 @@ export const Footer = () => {
                     </div>
                 </Col>
             </Row>
-            <Row style={{paddingBottom: '20px'}}>
+            <Row style={{ paddingBottom: '20px' }}>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }} >
-                    <div className="be">PRODUCTS </div>
+                    <Link to="/Products" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">PRODUCTS </div>
+                    </Link>
+
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">BETTING SOFTWARE</div> </Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div className="be">
-                        BETTING FEATURES
-                    </div>
+                    <Link to="/Betting_Software" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">BETTING SOFTWARE</div>
+                    </Link>
+                </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
+                    <Link to="/Software_Features" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">
+                            SOFTWARE FEATURES
+                        </div>
+                    </Link>
+
                     <div >
                         <ul style={{
                             listStyleType: 'none',
@@ -75,9 +86,18 @@ export const Footer = () => {
                     </div>
 
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">PROMOS</div></Col>
                 <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
-                    <div className="be">BENEFITS</div>
+                    <Link to="/Promo" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">
+                            PROMOS</div>
+                    </Link>
+
+                </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
+                    <Link to="/Benefits" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">BENEFITS</div>
+                    </Link>
+
                     <div>
                         <ul style={{
                             listStyleType: 'none',
@@ -89,11 +109,22 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}><div className="be">CONTACT US</div></Col>
-                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}> <div className="be">QUICK CONTACT</div></Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}>
+                    <Link to="/Contact" style={{ textDecoration: 'none', color:'#8d7e4d' }}>
+                        <div className="be">
+
+                            CONTACT US</div>
+                    </Link>
+
+                </Col>
+                <Col lg={true} style={{ color: '#aca375', fontSize: '25px' }}> 
+                <Link to="/Contact" style={{textDecoration: 'none', color:'#8d7e4d'}}>
+                    <div className="be">QUICK CONTACT</div>
+                    </Link>
+                </Col>
             </Row>
             <Row style={{ justifyContent: 'space-between', alignItems: 'center', background: '#151315' }}>
-                
+
                 <div className="fu">
                     <ul>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>GLOSAARY</li>
@@ -101,8 +132,9 @@ export const Footer = () => {
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SITE MAP</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>SIGN UP</li>
                         <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ICONO</li>
+                        <li style={{ color: '#8d7e4d', fontSize: '16px' }}>ScrollToTop</li>
                     </ul>
-                    
+
                 </div>
                 <span style={{ color: '#8d7e4d' }}>Copyright 2010 - 2019 VIP Per Head</span>
 
