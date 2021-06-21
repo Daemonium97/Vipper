@@ -15,17 +15,17 @@ app.post("/send_email", cors(), async (req, res) => {
     let {text, name, phone, email} = req.body
     
     let transport = nodemailer.createTransport({
-        host: "smtp.mailtrap.io",
-        port: 2525,
+        host: "smtp-relay.sendinblue.com",
+        port: 587,
         auth: {
-          user: "ce33b5c8a67bd2",
-          pass: "965254913aaa2a"
+          user: "osra97@gmail.com",
+          pass: "9BQtdJZrvwLIjCEV"
         }
       });
 
         await transport.sendMail({
             from: "osra97@gmail.com",
-            to: "xayoye9037@gocasin.com",
+            to: "daemonium97@gmail.com",
             subject: "test email",
             html: `<div className="email" style="
             border: 1px solid black;
@@ -46,8 +46,6 @@ app.post("/send_email", cors(), async (req, res) => {
 
 
 })
-
-
 
 
 app.listen((3000, () =>{
