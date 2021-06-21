@@ -27,6 +27,7 @@ import {Products} from './views/Products'
 import {Promos} from './views/Promos'
 import {Blog, BlogView} from './views/Blog'
 import {Home2, Join2, Payments2} from './views/Home2'
+import {Form} from './components/Form'
 
 
 
@@ -119,7 +120,7 @@ ReactDOM.render(
         <Header/>
         <NavBar/>
         <Logoo ImageLogo={contact} TitleName="CONTACT"/>
-        
+        <Form/>
         <Footer/>
       </Route>
       <Route exact path="/Products">
