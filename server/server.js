@@ -25,7 +25,7 @@ app.post("/send_email", cors(), async (req, res) => {
 
         await transport.sendMail({
             from: process.env.MAIL_FROM,
-            to: "xayoye9037@gocasin.com",
+            to: "c77fde1746-5e7f71@inbox.mailtrap.io",
             subject: "test email",
             html: `<div className="email" style="
             border: 1px solid black;
@@ -50,6 +50,6 @@ app.post("/send_email", cors(), async (req, res) => {
 
 
 
-app.listen((process.env.PORT || 3000, () =>{
+app.listen((process.env.PORT || 4000, () =>{
     console.log('Listening')
 }))
