@@ -6,28 +6,28 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 const nodemailer = require("nodemailer")
 
-app.use(bodyParser.urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 app.use(cors())
 
 app.post("/send_email", cors(), async (req, res) => {
-    let {text, name, phone, email} = req.body
-    
-    let transport = nodemailer.createTransport({
-        host: "smtp-relay.sendinblue.com",
-        port: 587,
-        auth: {
-          user: "osra97@gmail.com",
-          pass: "9BQtdJZrvwLIjCEV"
-        }
-      });
+  let { text, name, phone, email } = req.body
 
-        await transport.sendMail({
-            from: "osra97@gmail.com",
-            to: "daemonium97@gmail.com",
-            subject: "test email",
-            html: `<div className="email" style="
+  const transport = nodemailer.createTransport({
+    host: process.env.MAIL_HOST,
+    port: process.env.MAIL_PORT,
+    auth: {
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS
+    }
+  });
+
+  await transport.sendMail({
+    from: process.env.MAIL_FROM,
+    to: "daemonium97@gmail.com",
+    subject: "Test email",
+    html: `<div className="email" style="
             border: 1px solid black;
             padding: 20px;
             font-family: sans-serif;
@@ -40,14 +40,12 @@ app.post("/send_email", cors(), async (req, res) => {
             <p>All the best, Darwin</p>
              </div>
         `
-        })
-
-
+  })
 
 
 })
 
 
-app.listen((3000, () =>{
-    console.log('Listening')
+app.listen((process.env.PORT || 4000, () => {
+  console.log("Listening")
 }))
