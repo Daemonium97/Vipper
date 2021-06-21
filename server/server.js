@@ -14,18 +14,18 @@ app.use(cors())
 app.post("/send_email", cors(), async (req, res) => {
     let {text, name, phone, email} = req.body
     
-    const transport = nodemailer.createTransport({
-        host: process.env.MAIL_HOST,
-        port: process.env.MAIL_HOST,
+    let transport = nodemailer.createTransport({
+        host: "smtp.mailtrap.io",
+        port: 2525,
         auth: {
-            user: process.env.MAIL_USER,
-            pass: process.env.MAIL_PASS
+          user: "ce33b5c8a67bd2",
+          pass: "965254913aaa2a"
         }
-    })
+      });
 
         await transport.sendMail({
-            from: process.env.MAIL_FROM,
-            to: "c77fde1746-5e7f71@inbox.mailtrap.io",
+            from: "osra97@gmail.com",
+            to: "xayoye9037@gocasin.com",
             subject: "test email",
             html: `<div className="email" style="
             border: 1px solid black;
@@ -50,6 +50,6 @@ app.post("/send_email", cors(), async (req, res) => {
 
 
 
-app.listen((process.env.PORT || 4000, () =>{
+app.listen((3000, () =>{
     console.log('Listening')
 }))

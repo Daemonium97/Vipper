@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import axios from 'axios'
 
@@ -8,7 +8,7 @@ export const Form = () => {
     const handleSend = async (e) => {
         setSent(true)
         try {
-            await axios.post("http://localhost:4000/send_mail", {
+            await axios.post("http://localhost:3000/send_mail", {
                 text
             })
         } catch (error) {
@@ -18,13 +18,18 @@ export const Form = () => {
 
     return (
         <Container fluid>
-            <Row style={{ background: 'black', justifyContent: 'center' }}>
+            <Row style={{ background: 'black', justifyContent: 'center',paddingTop:'90px' }}>
                 <div className="App">
                     {!sent ? (
                         <form onSubmit={handleSend}>
-                            <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
+                            <div className="form-group">
+                                <input type="text"  value={text} onChange={(e) => setText(e.target.value)} />
+                            </div>
 
-                            <button type="submit">Send Email</button>
+                            <div className="form-group">
+                                <button type="submit">Send Email</button>
+                            </div>
+
                         </form>
                     ) : (
                         <h1>Email Sent</h1>
