@@ -397,7 +397,8 @@ export const Join2 = () => {
                 <div>
                     <p style={{ color: '#a4a776', fontSize: '30px' }}>JOIN THE SELECT GROUP OF BOOKIES THAT USE VIP PER HEAD TODAY.</p>
                     <p style={{ color: '#90985a', fontSize: '25px' }}>Complete the form and access a free 3-week trial.</p>
-                    <button class="custom-btn bt-5"
+                    <Link to="Contact">
+                        <button class="custom-btn bt-5"
                         style={{
                             border: 'none',
                             borderRadius: '3px',
@@ -409,6 +410,8 @@ export const Join2 = () => {
                             width: '110px',
                             height: '40px'
                         }}><span>JOIN TODAY</span></button>
+                    </Link>
+                    
 
                 </div>
 
